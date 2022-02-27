@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Articulated Trucks -->
+<Product PDF="">
+	<Frame ID="1">
+		<Nav ID="0" SubTitle="Frame 1 Nav 0" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Window washers are standard on front and side windows.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Frame 1 Nav 1" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Steps provide quick access to engine under electric hood.</p>]]></Nav>
+	</Frame>
+	<Frame ID="2">
+		<Nav ID="0" SubTitle="Frame 2 Nav 0" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Field-proven Cummins engine delivers 248 to 286 net HP.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Frame 2 Nav 1" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Lexan lenses protect headlights.</p>]]></Nav>
+		<Nav ID="2" SubTitle="Frame 2 Nav 2" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Rear-window protective screen keeps wayward payload from damaging window.</p>]]></Nav>
+	</Frame>
+	<Frame ID="3">
+		<Nav ID="0" SubTitle="Frame 3 Nav 0" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Heaped capacity ranges from Case 325 and 330 ranges from 17.4 to 20.9 cubic yards.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Frame 3 Nav 1" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Electric hood raises 90 degrees to provide quick access to the power plant.</p>]]></Nav>
+		<Nav ID="2" SubTitle="Frame 3 Nav 2" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Cab provides the outstanding all-around visibility on the job site.</p>]]></Nav>
+		<Nav ID="3" SubTitle="Frame 3 Nav 3" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Front and rear halogen floodlights are standard for job site visibility.</p>]]></Nav>
+	</Frame>
+	<Frame ID="4">
+		<Nav ID="0" SubTitle="Frame 4 Nav 0" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>A heavy-duty frame with steel castings provides longer operating life and trouble-free operation.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Frame 4 Nav 1" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Groung-level service doors provide easy access to batteries and washer fluid.</p>]]></Nav>
+		<Nav ID="2" SubTitle="Frame 4 Nav 2" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Ground level gauges allow easy check of fuel and hydraulic levels.</p>]]></Nav>
+		<Nav ID="3" SubTitle="Frame 4 Nav 3" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>The drive line is lubed for life.</p>]]></Nav>
+		<Nav ID="4" SubTitle="Frame 4 Nav 4" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Tire options are available to match job-site conditions.</p>]]></Nav>
+	</Frame>
+	<Frame ID="5">
+		<Nav ID="0" SubTitle="Frame 5 Nav 0" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Dump body tips 67 degrees for clean payload dumping.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Frame 5 Nav 1" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Swing-out fenders provide quick access to major power components.</p>]]></Nav>
+		<Nav ID="2" SubTitle="Frame 5 Nav 2" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Spacious cab includes standard six-way suspension seat for comfort.</p>]]></Nav>
+		<Nav ID="3" SubTitle="Frame 5 Nav 3" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Two master zert locations provide grease to front and rear chassis.</p>]]></Nav>
+	</Frame>
+	<Frame ID="6">
+		<Nav ID="0" SubTitle="Frame 6 Nav 0" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Proven ZF limited-slip axles are standard with differential lock for difficult ground conditions.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Frame 6 Nav 1" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>A wide body provides for maximum payload.</p>]]></Nav>
+		<Nav ID="2" SubTitle="Frame 6 Nav 2" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Rear television camera is standard for enhanced visibility.</p>]]></Nav>
+	</Frame>
+	<Frame ID="7">
+		<Nav ID="0" SubTitle="Frame 7 Nav 0" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Rugged ZF transmission has power shift with torque converter.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Frame 7 Nav 1" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Exclusive reflective decals provide added visibility on the job site.</p>]]></Nav>
+		<Nav ID="2" SubTitle="Frame 7 Nav 2" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Optional remote-control electric heated mirrors are available.</p>]]></Nav>
+	</Frame>
+	<Frame ID="8">
+		<Nav ID="0" SubTitle="Frame 8 Nav 0" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Sloping hood enhances visibility.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Frame 8 Nav 1" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>A wider frame allows the multi-stage telescopic lift cylinders to be mounted inside the frame for increased stability.</p>]]></Nav>
+		<Nav ID="2" SubTitle="Frame 8 Nav 2" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>The truck articulates 45 degrees, and an oscillation joint helps the truck traverse uneven or adverse terrain.</p>]]></Nav>
+		<Nav ID="3" SubTitle="Frame 8 Nav 3" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Rocking-beam rear suspension has fewer parts to wear out as it cushions the load.</p>]]></Nav>
+		<Nav ID="4" SubTitle="Frame 8 Nav 4" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>The differential lock system allows the operator to select from three options to best match ground conditions for the best ride.</p>]]></Nav>
+	</Frame>
+</Product>

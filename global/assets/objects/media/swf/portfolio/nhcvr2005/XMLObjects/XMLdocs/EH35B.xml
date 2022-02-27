@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product Name="EH35.B Compact Excavator" ImageFolder="EH35B">
+	<frame ID="0" ProductPic="right-front.swf">
+		<nav ID="0" SubTitle="Standard two-way dozer blade features advanced design" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="313" yLoc="293"><![CDATA[<p>The dozer blade design, coupled with its high capacity is great for performing light to medium finish work, site preparation or cleanup.</p>]]></nav>
+		<nav ID="1" SubTitle="Boom work light" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="304" yLoc="106"><![CDATA[<p>Exterior lighting makes it easy to see work during the low light of evening or early morning hours.</p>]]></nav>
+		<nav ID="2" SubTitle="Center boom swing" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="250" yLoc="240"><![CDATA[<p>Adds maneuverability to the zero tail swing design when working in confined areas.</p>]]></nav>
+	</frame>
+	<frame ID="1" ProductPic="front.swf">
+		<nav ID="0" SubTitle="Conveniently positioned controls" SubPic1="1_0_IMG_8750.jpg" SubPic2="1_0_IMG_8804.jpg" SubPic3="1_0_IMG_8823.jpg" SubPic4="" xLoc="293" yLoc="168"><![CDATA[<p>Operating levers are conveniently positioned and foot rests provide comfortable support when operating the machine. Two-speed control is conveniently located on travel lever.</p>]]></nav>
+	</frame>
+	<frame ID="2" ProductPic="left-front.swf">
+		<nav ID="0" SubTitle="Tilt-operated safety lever lock" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="305" yLoc="200"><![CDATA[<p>The tilt-operated safety lever lock disengages the attachment, boom swing and travel functions to prevent accidental operation when entering/leaving cab.</p>]]></nav>
+		<nav ID="1" SubTitle="ROPS/FOPS canopy" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="222" yLoc="92"><![CDATA[<p>The certified ROPS/FOPS canopy provides roll-over protection, shields the operator from falling debris or objects and provides shelter from sun and rain.</p>]]></nav>
+	</frame>
+	<frame ID="3" ProductPic="left-rear.swf">
+		<nav ID="0" SubTitle="Standard rubber tracks" SubPic1="3_0_IMG_8744.jpg" SubPic2="3_0_IMG_8745.jpg" SubPic3="3_0_IMG_8746.jpg" SubPic4="" xLoc="215" yLoc="270"><![CDATA[<p>Standard rubber tracks minimize damage to multiple surfaces, including asphalt, concrete and turf, and reduce noise.</p>]]></nav>
+		<nav ID="0" SubTitle="Zero tail swing" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="311" yLoc="256"><![CDATA[<p>With the zero tail swing design, this excavator can move and work in tight spaces without damaging the machine or the job site.</p>]]></nav>
+	</frame>
+	<frame ID="4" ProductPic="rear.swf">
+		<nav ID="0" SubTitle="Straight propel system" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="250" yLoc="282"><![CDATA[<p>The straight propel system keeps machine on straight course, even during multiple operations.</p>]]></nav>
+	</frame>
+	<frame ID="5" ProductPic="right-rear.swf">
+		<nav ID="0" SubTitle="Swing-out side panels" SubPic1="5_0_IMG_8684.jpg" SubPic2="5_0_IMG_8685.jpg" SubPic3="5_0_IMG_8741.jpg" SubPic4="" xLoc="237" yLoc="182"><![CDATA[<p>Easy daily maintenance through large swing-out side panels.</p>]]></nav>
+		<nav ID="1" SubTitle="Swing-out side panels" SubPic1="5_0_IMG_8684.jpg" SubPic2="5_0_IMG_8685.jpg" SubPic3="5_0_IMG_8741.jpg" SubPic4="" xLoc="300" yLoc="215"><![CDATA[<p>Easy daily maintenance through large swing-out side panels.</p>]]></nav>
+	</frame>
+</product>

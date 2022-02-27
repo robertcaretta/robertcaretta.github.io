@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v5 U (http://www.xmlspy.com) by Asuka (Asuka) -->
+<!-- Minimum Swing Excavators -->
+<Product PDF="">
+	<Frame ID="1">
+		<Nav ID="0" SubTitle="Frame 1 Nav 0" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Hydraulic components are easy to access behind main control valve panel. Ultra clean 1 micron filter.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Frame 1 Nav 1" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Optional offset boom can be hydraulically moved right or left of center to allow parallel digging outside the tracks.</p>]]></Nav>
+	</Frame>
+	<Frame ID="2">
+		<Nav ID="0" SubTitle="Frame 2 Nav 0" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Design of the offset boom allows digging against the sides of buildings or around obstructions.</p>]]></Nav>
+	</Frame>
+	<Frame ID="3">
+		<Nav ID="0" SubTitle="Frame 3 Nav 0" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>When A/C or heater/defroster isn't in use the sliding front upper glass can be stored overhead. Lower front glass can be removed & stored on the left side.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Frame 3 Nav 1" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Hydraulically controlled dozer cuts 7ft. 7in. (2.32m) wide, 1ft. 4in. (.42m) lift above ground, 8in. (.21m) dig depth.</p>]]></Nav>
+		<Nav ID="2" SubTitle="Frame 3 Nav 2" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Arm digging force up to 8,857 lb (39.4 KN) on CX75 & 28,236 lb (125.6 kN) on CX225. Hydraulic system features swing brake, anti-drift valve, ultra clean filtering system, boom & arm cushioning & Art's drift valve, aux. control valve, power boost on CX225.</p>]]></Nav>
+		<Nav ID="3" SubTitle="Frame 3 Nav 3" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Adjustable 7-way suspension seat provides added comfort and enhances productivity. Other standard cab features include air/heat, AM/FM radio, sky light, sun visor, membrane switches, visibility.</p>]]></Nav>
+	</Frame>
+	<Frame ID="4">
+		<Nav ID="0" SubTitle="Frame 4 Nav 0" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Two-speed hydrostatic travel drive delivers up to 3.2 mph (5.1 Km/h) travel speed.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Frame 4 Nav 1" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Available bucket sizes range from 0.24 yd3 (0.18 m3) on the CX75 to 1.53 yd3 (1.17 m3) on the CX225.</p>]]></Nav>
+		<Nav ID="2" SubTitle="Frame 4 Nav 2" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Easy-change air filter is accessed through side panel for quick and easy checks with no tools.</p>]]></Nav>
+		<Nav ID="3" SubTitle="Frame 4 Nav 3" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>The compact design helps hold the swing radius to as little as 4 feet (1.21 m).</p>]]></Nav>
+		<Nav ID="4" SubTitle="Frame 4 Nav 4" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>The cab features ample glass for maximum visibility.</p>]]></Nav>
+	</Frame>
+	<Frame ID="5">
+		<Nav ID="0" SubTitle="Frame 5 Nav 0" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Swing-out door provides quick access to hydraulic oil fill.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Frame 5 Nav 1" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>The engine is accessible under a flip-up hood for quick daily checks.</p>]]></Nav>
+	</Frame>
+	<Frame ID="6">
+		<Nav ID="0" SubTitle="Frame 6 Nav 0" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Fully enclosed, soundproofed cab has Isomount system that delivers comfortable operation and low-effort controls for maximum productivity.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Frame 6 Nav 1" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Body design allows the excavator to swing within a single traffic lane or parrallel to the side of a building</p>]]></Nav>
+	</Frame>
+</Product>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Product PDF="">
+	<Frame ID="1">
+		<Nav ID="0" SubTitle="Frame 1 Nav 0" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p></p>]]></Nav>
+		<Nav ID="1" SubTitle="Frame 1 Nav 1" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p></p>]]></Nav>
+		<Nav ID="2" SubTitle="Frame 1 Nav 2" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p></p>]]></Nav>
+		<Nav ID="3" SubTitle="Frame 1 Nav 3" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p></p>]]></Nav>
+	</Frame>
+	<Frame ID="2">
+		<Nav ID="0" SubTitle="Frame 2 Nav 0" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p></p>]]></Nav>
+		<Nav ID="1" SubTitle="Frame 2 Nav 1" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p></p>]]></Nav>
+		<Nav ID="2" SubTitle="Frame 2 Nav 2" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p></p>]]></Nav>
+		<Nav ID="3" SubTitle="Frame 2 Nav 3" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p></p>]]></Nav>
+	</Frame>
+	<Frame ID="3">
+		<Nav ID="0" SubTitle="Frame 3 Nav 0" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p></p>]]></Nav>
+		<Nav ID="1" SubTitle="Frame 3 Nav 1" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p></p>]]></Nav>
+		<Nav ID="2" SubTitle="Frame 3 Nav 2" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p></p>]]></Nav>
+		<Nav ID="3" SubTitle="Frame 3 Nav 3" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p></p>]]></Nav>
+	</Frame>
+	<Frame ID="4">
+		<Nav ID="0" SubTitle="Frame 4 Nav 0" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p></p>]]></Nav>
+		<Nav ID="1" SubTitle="Frame 4 Nav 1" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p></p>]]></Nav>
+		<Nav ID="2" SubTitle="Frame 4 Nav 2" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p></p>]]></Nav>
+		<Nav ID="3" SubTitle="Frame 4 Nav 3" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p></p>]]></Nav>
+	</Frame>
+	<Frame ID="5">
+		<Nav ID="0" SubTitle="Frame 5 Nav 0" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p></p>]]></Nav>
+		<Nav ID="1" SubTitle="Frame 5 Nav 1" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p></p>]]></Nav>
+		<Nav ID="2" SubTitle="Frame 5 Nav 2" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p></p>]]></Nav>
+		<Nav ID="3" SubTitle="Frame 5 Nav 3" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p></p>]]></Nav>
+	</Frame>
+	<Frame ID="6">
+		<Nav ID="0" SubTitle="Frame 6 Nav 0" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p></p>]]></Nav>
+		<Nav ID="1" SubTitle="Frame 6 Nav 1" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p></p>]]></Nav>
+		<Nav ID="2" SubTitle="Frame 6 Nav 2" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p></p>]]></Nav>
+		<Nav ID="3" SubTitle="Frame 6 Nav 3" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p></p>]]></Nav>
+	</Frame>
+</Product>

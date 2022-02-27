@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product Name="LS150 Skid Steer" ImageFolder="LS150">
+	<frame ID="0" ProductPic="right-front.swf">
+		<nav ID="0" SubTitle="Strategically placed work lights" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="300" yLoc="115"><![CDATA[<p>Even in low-light conditions during evening or early morning hours, operators can still work productively and efficiently.</p>]]></nav>
+		<nav ID="1" SubTitle="Low-effort, self-neutralizing hand controls and responsive foot controls" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="286" yLoc="165"><![CDATA[<p>The LS platform is easy to use and allows the operator to spend a full day on the job and still be productive at quitting time.</p>]]></nav>
+	</frame>
+	<frame ID="1" ProductPic="front.swf">
+		<nav ID="0" SubTitle="Overhead, user-friendly instrument panel" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="250" yLoc="115"><![CDATA[<p>The state-of-the-art electronic instrument control (EIC) panel constantly monitors all operating systems and alerts the operator to potential trouble with visible and audible alarms.</p>]]></nav>
+		<nav ID="1" SubTitle="Widest cab in the industry offers easy entrance/exit" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="200" yLoc="162"><![CDATA[<p>Comfortable operators are confident, productive operators. The large, roomy cab provides easy operation and all-day comfort, even on the roughest terrain. Ample leg- and foot-room add to the operator comfort.</p>]]></nav>
+	</frame>
+	<frame ID="2" ProductPic="left-front.swf">
+		<nav ID="0" SubTitle="Easy access to power train components by lifting seat" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="270" yLoc="160"><![CDATA[<p>The seat flips up without tools for easy access to the hydraulic pumps and drivetrain components. If more access is required, the entire boom and cab assembly lift up and forward for unobstructed access to the engine and transmission.</p>]]></nav>
+	</frame>
+	<frame ID="3" ProductPic="left.swf">
+		<nav ID="0" SubTitle="New Holland Construction’s third-generation of SuperBoom, vertical-lift design" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="370" yLoc="200"><![CDATA[<p>With SuperBoom, the higher the load is lifted, the farther forward it can be placed, providing excellent reach at maximum dump height. SuperBoom’s exceptional 46-degree dump angle and 36-degree rollback angle help boost productivity even further.</p>]]></nav>
+	</frame>
+	<frame ID="4" ProductPic="left-rear.swf">
+		<nav ID="0" SubTitle="" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="" yLoc=""><![CDATA[<p></p>]]></nav>
+	</frame>
+	<frame ID="5" ProductPic="rear.swf">
+		<nav ID="0" SubTitle="Service doors provide easy access to engine and service ports" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="270" yLoc="200"><![CDATA[<p>LS Series skid steer loaders are designed for easy access to routine maintenance points, lowering daily maintenance chores and increasing the bottom line.</p>]]></nav>
+	</frame>
+	<frame ID="6" ProductPic="right-rear.swf">
+		<nav ID="0" SubTitle="Two-speed travel for better productivity" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="220" yLoc="260"><![CDATA[<p>LS skid steer loaders have fast ground speeds for decreased cycle times and increased output.</p>]]></nav>
+	</frame>
+	<frame ID="7" ProductPic="right.swf">
+		<nav ID="0" SubTitle="Low center of gravity, long wheelbase and standard full suspension seat" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="245" yLoc="290"><![CDATA[<p>Longer wheel base provides superior machine stability, which allows the operator to travel with a full bucket or a large bale without worry of spillage material or unexpected tipping, even on rough or uneven terrain.</p>]]></nav>
+	</frame>
+</product>

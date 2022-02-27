@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>MMC Media Kit Demo</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+    <style type="text/css" media="all">
+        body {
+            text-align:center;  background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div id="flashCC"></div>
+    <script type="text/javascript" language="javascript">
+        var flashvars = false;
+        var params = { menu: "false", wmode: "transparent", bgcolor: "#ffffff" };
+        var attributes = { id: "myFlashContent", name: "myFlashContent" };
+        swfobject.embedSWF("NHCMediaKit.swf", "flashCC", "799", "775", "6", "", flashvars, params, attributes);
+    </script>
+</body>
+</html>

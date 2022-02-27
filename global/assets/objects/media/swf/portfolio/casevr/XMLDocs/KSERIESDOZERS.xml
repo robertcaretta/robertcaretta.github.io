@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v5 U (http://www.xmlspy.com) by Asuka (Asuka) -->
+<!-- K Series Dozers -->
+<Product PDF="">
+	<Frame ID="1">
+		<Nav ID="0" SubTitle="180-degree-swing open doors" SubPic1="1_0_750K01103.jpg" SubPic2="NA" SubPic3="NA"><![CDATA[<p>180-degree-swing doors open flat to side of cab for easy access to and exit from the cab.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Superior view to the blade" SubPic1="1_1_viewtoblade2.jpg" SubPic2="1_1_850Cab10.jpg" SubPic3="1_1_view_blade.jpg"><![CDATA[<p>Superior view to heel of blade allows operator to better gauge material flow.</p>]]></Nav>
+		<Nav ID="2" SubTitle="Flexible undercarriage options" SubPic1="1_2_850K02509.JPG" SubPic2="1_2_850K00205.JPG" SubPic3="1_2_KSeries01506.JPG"><![CDATA[<p>Numerous undercarriage options are available to match the machine to job-site conditions, including Long Track, Wide Track and Low Ground Pressure versions. The optional Case Extended Life Track (CELT) undercarriage provides outstanding durability and extended life even in abrasive conditions.</p>]]></Nav>
+	</Frame>
+	<Frame ID="2">
+		<Nav ID="0" SubTitle="Narrow dashboard increases visibility" SubPic1="2_0_kcab.jpg" SubPic2="NA" SubPic3="NA"><![CDATA[<p>Narrow dashboard increases visibility to blade and work site.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Swing-out panels improve access" SubPic1="2_1_650K01101.JPG" SubPic2="2_1_850K02602.JPG" SubPic3="2_1_swing-panel.jpg"><![CDATA[<p>Convenient swing-out grill and side panels provide quick access to all routine maintenance points, making K Series dozers easy to maintain.</p>]]></Nav>
+		<Nav ID="2" SubTitle="Range of blade options" SubPic1="2_2_01409.jpg" SubPic2="2_2_650K00104.jpg" SubPic3="2_2_850K02301.jpg"><![CDATA[<p>Blade widths on the 650K, 750K and 850K XLT range from 98 inches (2489 mm) to 130 inches (3302 mm). These choices provide another opportunity to match the machine to the job. While a narrower blade is most efficient when working in close spaces, using a wider blade increases productivity in open areas.</p>]]></Nav>
+	</Frame>
+	<Frame ID="3">
+		<Nav ID="0" SubTitle="Luxurious cab" SubPic1="3_0_850Cab05.jpg" SubPic2="3_0_850Cab03.jpg" SubPic3="3_0_control.jpg"><![CDATA[<p>The luxurious cab features Air-Ride seat, panoramic tinted glass, high-capacity heater/air conditioner, low-effort controls and plenty of legroom.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Adjustable blade pitch" SubPic1="3_1_blade_pitch.jpg" SubPic2="3_1_blade_pitch2.jpg" SubPic3="3_1_bladepitch.jpg"><![CDATA[<p>Blade pitch can be easily adjusted with no-tools from a maximum 52 degrees forward and 60 degrees rearward by removing a clip pin. No additional tools are needed.</p>]]></Nav>
+	</Frame>
+	<Frame ID="4">
+		<Nav ID="0" SubTitle="Work lights" SubPic1="4_0_750K00907.JPG" SubPic2="4_0_750K01009.JPG" SubPic3="NA"><![CDATA[<p>Front and rear work lights improve visibility on the job site.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Attachments add versatility" SubPic1="4_1_750K00707.JPG" SubPic2="4_1_PC170.jpg" SubPic3="4_1_attach.jpg"><![CDATA[<p>K Series dozers can be equipped with a parallelogram high-clearance ripper to tackle packed, frozen or rocky soils. The ripper can be equipped with three to five shanks that will penetrate up to 14 inches. The dozers can also be outfitted with winches.</p>]]></Nav>
+	</Frame>
+	<Frame ID="5">
+		<Nav ID="0" SubTitle="Swing-out side doors" SubPic1="5_0_maint.jpg" SubPic2="5_0_750K01203.JPG" SubPic3="5_0_KSeries00403.JPG"><![CDATA[<p>Side-wing doors allow quick and easy access to daily check points.</p>]]></Nav>
+		<Nav ID="1" SubTitle="PowerStat hydrostatic drive" SubPic1="5_1_KSeries00506.JPG" SubPic2="5_1_drivetrain.jpg" SubPic3="NA"><![CDATA[<p>PowerStat hydrostatic drive gives the dozer more power to each track through beefy drive motors.</p>]]></Nav>
+	</Frame>
+	<Frame ID="6">
+		<Nav ID="0" SubTitle="Easy-tilt Cab/ROPS " SubPic1="6_0_tiltovercab.jpg" SubPic2="NA" SubPic3="NA"><![CDATA[<p>Industry-exclusive easy-tilt cab/ROPS platform allows for quick access to the power train.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Angled track frame keeps undercarriage clean" SubPic1="6_1_KSeries01404.JPG" SubPic2="6_1_trackcovers.jpg" SubPic3="NA"><![CDATA[<p>49-degrees sloping track frame cover and ample space between the track and machine make it easy to keep the K Series free of dirt, rocks and debris.</]]></Nav>
+		<Nav ID="2" SubTitle="Proven Case engines" SubPic1="6_2_DrivOvral02.jpg" SubPic2="NA" SubPic3="NA"><![CDATA[<p>K Series dozers feature field-proven, economical Case engines ranging from 81 to 96 horsepower that have excellent fuel economy at 2.3 to 2.5 gallons per hour.</p>]]></Nav>
+	</Frame>
+	<!-- Begin Undercarriage Content -->
+	<Frame ID="7">
+		<Nav ID="0" SubTitle="Fuel-efficent, powerful engines" SubPic1="7_0_engine.jpg" SubPic2="NA" SubPic3="NA"><![CDATA[<p>K Series dozers range from 75 to 96 horsepower and provide excellent fuel economy - 2.2 to 2.5 gallons per hour.</p>]]></Nav>
+	</Frame>
+	<Frame ID="8">
+		<Nav ID="0" SubTitle="Isolation mounted hydrostatic pumps" SubPic1="8_0_ISO01.jpg" SubPic2="8_0_drivemotor.jpg" SubPic3="NA"><![CDATA[<p>K Series dozers feature isolation-mounted hydrostatic pumps and motors that provide superior power to each track.</p>]]></Nav>
+	</Frame>
+</Product>

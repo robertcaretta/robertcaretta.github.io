@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product Name="DC75 Crawler Dozer" ImageFolder="DC75">
+	<frame ID="0" ProductPic="right-front.swf">
+		<nav ID="0" SubTitle="6-way PAT (power angle/tilt)" SubPic1="0_0_DC75.4589.jpg" SubPic2="0_0_DC75.4591.jpg" SubPic3="0_0_DC75.4593.jpg" SubPic4="0_0_DC75.4595.jpg" xLoc="315" yLoc="240"><![CDATA[<p>Power angle and tilt (PAT) blades are versatile to handle a wide range of tough jobs, including finish grading, ditching, backfilling or spreading. Six available blade widths from 98 to 130 inches.</p>
+
+<p><i>For an animated demonstration of the 6-way PAT click on the flashing link below the product.</i></p>
+]]></nav>
+	</frame>
+	<frame ID="1" ProductPic="front.swf">
+		<nav ID="0" SubTitle="Industry-leading push power" SubPic1="1_0_DC75.4599.jpg" SubPic2="1_0_DC75.4602.jpg" SubPic3="1_0_DC75.4603.jpg" SubPic4="" xLoc="250" yLoc="270"><![CDATA[<p>DC Series crawler dozers deliver outstanding productivity with their industry-leading track force and push power, especially at slow speeds.</p>]]></nav>
+	</frame>
+	<frame ID="2" ProductPic="left-front.swf">
+		<nav ID="0" SubTitle="Industry-leading blade force" SubPic1="2_0_DC75.4522.jpg" SubPic2="2_0_DC75.4594.jpg" SubPic3="2_0_DC75.4597.jpg" SubPic4="" xLoc="220" yLoc="335"><![CDATA[<p>With blade angle forces up to 31,000 pounds (14,061 kgf) and blade angle torque up to 85,250 foot-pounds (38,669 kgf) -- far superior to results achieved with other models -- the operator can work in the toughest ground conditions and perform such difficult tasks as dislodging tree stumps.</p>]]></nav>
+	</frame>
+	<frame ID="3" ProductPic="left.swf">
+		<nav ID="0" SubTitle="Cab and canopy features" SubPic1="3_0_DC75.4606.jpg" SubPic2="3_0_DC75.4608.jpg" SubPic3="3_0_DC75.4610.jpg" SubPic4="3_0_DC75.4614.jpg" xLoc="315" yLoc="80"><![CDATA[<p>Operators will appreciate the exceptional visibility, spacious comfort and easy controls of the DC crawler dozer. A standard, deluxe mechanical suspension seat provides adjustments for height, fore and aft, lumbar and t high support and backrest position. The cooling and heating performance of the cab keeps the operator comfortable regardless of the outside temperature.</p>]]></nav>
+		<nav ID="1" SubTitle="Reliable new emissions engines" SubPic1="3_1_DC75.4616.jpg" SubPic2="3_1_DC75.4619.jpg" SubPic3="3_1_DC75.4620.jpg" SubPic4="" xLoc="215" yLoc="170"><![CDATA[<p>New, cleaner-burning, turbocharged engines deliver reliable, fuel-efficient, earth-moving power, while going easy on the environment. The new engine features quiet operation, an integral water pump and oil cooler and a poly-V belt with automatic belt tensioning.</p>]]></nav>
+	</frame>
+	<frame ID="4" ProductPic="left-rear.swf">
+		<nav ID="0" SubTitle="Easy clean undercarriage" SubPic1="4_0_DC75.4567.jpg" SubPic2="4_0_DC75.4634.jpg" SubPic3="4_0_DC75.4635.jpg" SubPic4="" xLoc="195" yLoc="305"><![CDATA[<p>New Holland Construction takes the hassle out of cleaning the undercarriage and tracks after operating in sticky, muddy ground conditions or in frost or freezing conditions. The open final drive area and open chassis design allow for easier cleaning and the angled track frame covers shed dirt easily.</p>]]></nav>
+		<nav ID="1" SubTitle="Wide-opening service panels" SubPic1="4_1_DC75.4654.jpg" SubPic2="4_1_DC75.4649.jpg" SubPic3="" SubPic4="" xLoc="180" yLoc="180"><![CDATA[<p>All engine and service compartments feature easy-open panels for fast access to daily service checkpoints from the ground, without tools.</p>]]></nav>
+	</frame>
+	<frame ID="5" ProductPic="rear.swf">
+		<nav ID="0" SubTitle="Hydrostatic transmissions" SubPic1="5_0_DC75.4624.jpg" SubPic2="" SubPic3="" SubPic4="" xLoc="248" yLoc="284"><![CDATA[<p>The hydrostatic transmission provides smooth, precise steering control and speed changes from 0 to 6 mph (0 to 9.7 kph).</p>]]></nav>
+	</frame>
+	<frame ID="6" ProductPic="right-rear.swf">
+		<nav ID="0" SubTitle="Three different track configurations:  LT, WT, and LGP" SubPic1="6_0_DC75.4650.jpg" SubPic2="" SubPic3="" SubPic4="" xLoc="120" yLoc="240"><![CDATA[<p>Long Track (LT) for firm ground conditions and minimal slope areas; Wide Track (WT) for firm ground conditions in sloped areas requiring additional lateral stability and Low Ground Pressure (LGP) for soft, swampy ground conditions where low ground pressure is needed for better flotation.</p>]]></nav>
+		<nav ID="1" SubTitle="Tilt-over cab/canopy" SubPic1="6_1_DC75.4641.jpg" SubPic2="" SubPic3="" SubPic4="" xLoc="160" yLoc="177"><![CDATA[<p>With the convenient, easy-tilt platform, a technician can access critical hydraulic pumps and powertrain components in less than 20 minutes, keeping downtime to a minimum.</p>]]></nav>
+	</frame>
+	<frame ID="7" ProductPic="right.swf">
+		<nav ID="0" SubTitle="Operator preference settings" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="200" yLoc="150"><![CDATA[<p>Three methods for speed control and three levels of switch sensitivity allow operators to adapt the machine to their individual preferences.</p>]]></nav>
+		<nav ID="1" SubTitle="On-board diagnostic systems" SubPic1="7_1_DC75.4611.jpg" SubPic2="7_1_DC75.4612.jpg" SubPic3="7_1_DC75.4651.jpg" SubPic4="" xLoc="275" yLoc="200"><![CDATA[<p>Standard on DC crawler dozers, the onboard diagnostics system simplifies trouble-shooting and servicing. The system includes a diagnostic pressure test panel and a cab-accessible, electrical system diagnostic display to spot potential problems quickly and minimize costly downtime.</p>]]></nav>
+	</frame>
+</product>

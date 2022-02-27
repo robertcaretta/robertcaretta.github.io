@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Vibratory Rollers -->
+<Product PDF="">
+	<Frame ID="1">
+		<Nav ID="0" SubTitle="Frame 1 Nav 0" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Sloping rear hood helps provide excellent visibility.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Frame 1 Nav 1" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>The vibratory drum comes in smooth and pad foot configurations, delivering 32,000 to 73,125 lbs. of centrifugal force. Leveling blade option is available.</p>]]></Nav>
+		<Nav ID="2" SubTitle="Frame 1 Nav 2" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>The cab and ROPS canopy are well-insulated from the chassis through isolated mounting points, providing comfortable operation.</p>]]></Nav>
+		<Nav ID="3" SubTitle="Frame 1 Nav 3" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>"Left and right service doors provide access to hood and platform activation switches and battery-disconnect switch.</p>]]></Nav>
+	</Frame>
+	<Frame ID="2">
+		<Nav ID="0" SubTitle="Frame 2 Nav 0" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Dual frequencies and dual amplitude combine with high centrifugal forces for maximum compaction performance.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Frame 2 Nav 1" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Muffler mounted under-the-hood makes for quieter operation and directs exhaust away from the operator.</p>]]></Nav>
+		<Nav ID="2" SubTitle="Frame 2 Nav 2" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Articulated chassis provides 36-degree turning angle. Heavy-duty articulation and oscillation joint is easy to service.</p>]]></Nav>
+		<Nav ID="3" SubTitle="Frame 2 Nav 3" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Left and right flip down steps make it easier to access under-hood areas and the top of the machine.</p>]]></Nav>
+		<Nav ID="4" SubTitle="Frame 2 Nav 4" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Left and right ladder-style steps ease entry to and exit from the cab.</p>]]></Nav>
+	</Frame>
+	<Frame ID="3">
+		<Nav ID="0" SubTitle="Frame 3 Nav 0" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Heavy-duty integral rear bumper and fuel tank provide excellent balance and extra fuel capacity for up to 36 hours of operation.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Frame 3 Nav 1" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Rugged frame and extra-thick sideplates enhance durability and uptime operation".</p>]]></Nav>
+		<Nav ID="2" SubTitle="Frame 3 Nav 2" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Halogen floodlights in rear and front provide excellent visibility.</p>]]></Nav>
+		<Nav ID="3" SubTitle="Frame 3 Nav 3" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Excellent traction and gradeability help Case rollers work steep grades for optimum productivity.</p>]]></Nav>
+		<Nav ID="4" SubTitle="Frame 3 Nav 4" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Operator station features ergonomic, easy-to-use controls, suspension seat that swivels left and right.</p>]]></Nav>
+	</Frame>
+	<Frame ID="4">
+		<Nav ID="0" SubTitle="Frame 4 Nav 0" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Operator platform tilts forward for convenient access to components.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Frame 4 Nav 1" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Batteries, oil fill, hydraulic tank fill and filters easily accessed at ground level.</p>]]></Nav>
+		<Nav ID="2" SubTitle="Frame 4 Nav 2" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Exclusive power-raise rear hood provides quick access to the engine and daily service points.</p>]]></Nav>
+	</Frame>
+</Product>

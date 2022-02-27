@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root Header="New Holland Construction - Walkarounds" Name="Initializing Application" SubTitle="Loading" SubContent="Loading">
+	<!-- These nodes are assembled into the drop-down menu -->
+	<product Name="DC75 Crawler Dozer" XMLFile="DC75.xml"/>
+	<product Name="LS185B Skid Steer" XMLFile="LS185B.xml"/>
+	<product Name="EH35.B Compact Excavator" XMLFile="EH35B.xml"/>
+	<product Name="EH80 Midi Excavator" XMLFile="EH80.xml"/>
+	<product Name="LT185.B Compact Track Loader" XMLFile="LT185B.xml"/>
+</root>

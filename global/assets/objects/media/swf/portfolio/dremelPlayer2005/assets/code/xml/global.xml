@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<flash>
+	<!-- stage properties -->
+	<stage>
+		<width>400</width>
+		<height>400</height>
+		<align>TL</align>
+		<scaleMode>noScale</scaleMode>
+		<showMenu>false</showMenu>
+	</stage>
+	<!-- fscommands -->
+	<fscommand>
+		<fullscreen>false</fullscreen>
+		<allowscale>false</allowscale>
+		<showmenu>false</showmenu>
+	</fscommand>
+	<!-- other root variables -->
+	<root></root>
+</flash>

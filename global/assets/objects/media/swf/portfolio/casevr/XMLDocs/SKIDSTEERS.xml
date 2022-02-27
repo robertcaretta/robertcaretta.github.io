@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Skid Steers -->
+<Product PDF="">
+	<Frame ID="1">
+		<Nav ID="0" SubTitle="Frame 1 Nav 0" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Tilt-forward ROPS provides quick, easy access to internal components.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Frame 1 Nav 1" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Front and rear Halogen floodlights provide better work-site visibility and safety.</p>]]></Nav>
+		<Nav ID="2" SubTitle="Frame 1 Nav 2" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Two excavator-style swing-away control levers provide enhanced precisions and easier exit/entry access to the operator environment.</p>]]></Nav>
+		<Nav ID="3" SubTitle="Frame 1 Nav 3" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>The expanded line of buckets includes dirt, low-profile, manure/slurry and light material models of varying widths.</p>]]></Nav>
+	</Frame>
+	<Frame ID="2">
+		<Nav ID="0" SubTitle="Frame 2 Nav 0" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Case ride control reduces load/material spillage by stabilizing the load on rough job-site terrain.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Frame 2 Nav 1" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>At a mere 60 inches wide, the new XTs can fit through narrow openings.</p>]]></Nav>
+		<Nav ID="2" SubTitle="Frame 2 Nav 2" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>The easy-to-clean swing-out oil cooler and new cross-flow radiator provide better cooling in extreme conditions.</p>]]></Nav>
+		<Nav ID="3" SubTitle="Frame 2 Nav 3" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Water-shedding seat prevents rain or melting snow from pooling in the seat.</p>]]></Nav>
+		<Nav ID="4" SubTitle="Frame 2 Nav 4" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Convenient swing-out engine door provides easy access to service points.</p>]]></Nav>
+	</Frame>
+	<Frame ID="3">
+		<Nav ID="0" SubTitle="Frame 3 Nav 0" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Optional catalytic muffler creates low emissions for operation in enclosed areas.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Frame 3 Nav 1" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>The optional battery quick disconnect and remote jump-start terminals are conveniently located.</p>]]></Nav>
+		<Nav ID="2" SubTitle="Frame 3 Nav 2" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>The newly designed loader arms -- streamlined for better visibility -- help provide up to 7 Inches more forward reach over the 1800 series.</p>]]></Nav>
+		<Nav ID="3" SubTitle="Frame 3 Nav 3" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>The optional automatic engine shutdown system protects from major damage if the machine reaches excessive temperatures or pressures.</p>]]></Nav>
+	</Frame>
+	<Frame ID="4">
+		<Nav ID="0" SubTitle="Frame 4 Nav 0" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>The optional Case options-control panel is conveniently placed at eye level in front of the operator for easy access without restricting visibility.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Frame 4 Nav 1" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>A 4-inch longer wheel base than on 1800 series models provides stability and a smoother ride.</p>]]></Nav>
+		<Nav ID="2" SubTitle="Frame 4 Nav 2" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Optional two-way self-leveling - a forthcoming exclusive feature - will prevent material loss when raising or lowering loader arms.</p>]]></Nav>
+		<Nav ID="3" SubTitle="Frame 4 Nav 3" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>With the same circumference as a 12x16.5 tire, the new 10x16.5 Galaxy Mighty Slim Jim tires available on the 60XT and 70XT help the machines fit into tight spaces.</p>]]></Nav>
+		<Nav ID="4" SubTitle="Frame 4 Nav 4" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>An optional hydraulic attachment quick coupler on all XT models makes it possible to conveniently drop and switch buckets directly from the operator's compartment.</p>]]></Nav>
+	</Frame>
+</Product>

@@ -1,0 +1,129 @@
+/* =================================================================================
+BODY
+=================================================================================*/
+body {
+	margin-top:10px;
+	margin-left:5px;
+	margin-right:5px;
+	background-color:#0e202c;
+	text-align: left;
+	font-family: Arial, Verdana, Tahoma, Helvetica, sans-serif;
+	font-size:0.8em;
+	color: #000000;
+}
+a:link, a:visited, a:active {
+	color: #1f79c8;
+}
+a:hover {
+	color: #1f79c8;
+}
+
+/* =================================================================================
+LAYOUT & CONTENT
+=================================================================================*/
+/* @screen only ------------------ */
+@media projection, screen, tty, tv {
+	#mainCC {
+		text-align:left;
+		background-color:#0e151d;
+		border:1px solid #1f79c8;
+		margin: auto;
+		padding:5px;
+		min-width:230px;
+	}
+}
+
+#headerCC {
+	background: #0e202c url(http://www.robertcaretta.com/global/assets/objects/images/global/mobile_headerBG.gif) top repeat-x;
+	height:50px;
+	margin-bottom:5px;
+	padding: 0px;
+}
+
+#headerCC h1 {
+	color: #000000;
+	font-size:1.6em;
+	font-weight:bold;
+	margin:0px;
+	height:50px;
+	padding: 0px;
+	text-indent:-1000px;
+	background: url(http://www.robertcaretta.com/global/assets/objects/images/global/mobile_header.gif) left no-repeat;
+	line-height:50px;
+}
+
+/* @screen only ------------------ */
+@media projection, screen, tty, tv {
+	#resultCC {
+		background-color:#FFFFFF;
+		padding:8px;
+		border-left:1px solid #000000;
+		border-right:1px solid #000000;
+	}
+}
+
+/* @print only ------------------ */
+@media print {
+    #headerCC h1 {
+	    text-indent: 0px;
+    }
+	#resultCC {
+		background-color:#FFFFFF;
+		padding:8px;
+	}
+}
+
+.resume-subhead {
+	font-weight:bold;
+	width:100%;
+	border-bottom:solid;
+	border-bottom-color:#000000;
+	border-bottom-width:1px;
+}
+
+#copyrightCC {
+	font-size:0.8em;
+	color: #FFFFFF;
+	margin-top:5px;
+	margin-left:15px;
+}
+
+/* =================================================================================
+TAB NAV
+=================================================================================*/
+#tabAreaCC {
+  margin-bottom:1px;
+}
+
+/* @print only ------------------ */
+@media print {
+	#tabAreaCC {
+		visibility:hidden;
+	}
+}
+
+a.tab {
+  background-color: #d0d0d0;
+  border: 1px solid #000000;
+  border-bottom-width: 0px;
+  padding: 2px 0.5em 2px 0.5em;
+  text-decoration: none;
+  font-size: 0.9em;
+  font-weight: bold;
+  border:1px soild #000000;
+}
+
+/* Default -------------------- */
+a.tab:link, a.tab:visited {
+  color: #808080;
+}
+
+a.tab:hover {
+  background-color: #f0f0f0;
+  color: #606060;
+}
+
+a.tab:active {
+  background-color: #FFE394;
+  color: #000000;
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product Name="EH80 Midi Excavator" ImageFolder="EH80">
+	<frame ID="0" ProductPic="right-front.swf">
+		<nav ID="0" SubTitle="Three-mode digging" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="465" yLoc="260"><![CDATA[<p>Three-mode digging provides optimal performance under a variety of different working conditions.</p>]]></nav>
+	</frame>
+	<frame ID="1" ProductPic="front.swf">
+		<nav ID="0" SubTitle="Boom work light" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="240" yLoc="92"><![CDATA[<p>Exterior lighting makes it easy to see work during the low light of evening or early morning hours.</p>]]></nav>
+	</frame>
+	<frame ID="2" ProductPic="left-front.swf">
+		<nav ID="0" SubTitle="Standard two-way dozer blade" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="180" yLoc="300"><![CDATA[<p>The standard dozer blade enhances the flexibility of the machine and is great for one-pass site preperation. It also comes in handy for backfilling and grading or site cleanup.</p>]]></nav>
+		<nav ID="1" SubTitle="Operator comfort and convenience" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="255" yLoc="170"><![CDATA[<p>This cab is built for comfort and productivity. 7-way adjustable air suspension seat, reduced noise levels, intermittent wiper and tilted foot rest help reduce operator fatigue.</p>]]></nav>
+		<nav ID="2" SubTitle="Increased visibility and accessibility" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="330" yLoc="180"><![CDATA[<p>Excellent visibility in all directions.</p>]]></nav>
+	</frame>
+	<frame ID="3" ProductPic="left-rear.swf">
+		<nav ID="0" SubTitle="Short radius" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="330" yLoc="250"><![CDATA[<p>With a reduced counterweight overhang and minimal working width, the machine can work in tight spaces.</p>]]></nav>
+		<nav ID="1" SubTitle="Rugged construction" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="265" yLoc="265"><![CDATA[<p>The long and wide crawler frame provides excellent stability in demanding work conditions.</p>]]></nav>
+	</frame>
+	<frame ID="4" ProductPic="rear.swf">
+		<nav ID="0" SubTitle="Ground-level service check points" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="197" yLoc="225"><![CDATA[<p>Wide opening service panels provide fast access to daily service checkpoints from the ground level.</p>]]></nav>
+		<nav ID="1" SubTitle="Ground-level service check points" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="250" yLoc="212"><![CDATA[<p>Wide opening service panels provide fast access to daily service checkpoints from the ground level.</p>]]></nav>
+		<nav ID="2" SubTitle="Ground-level service check points" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="300" yLoc="225"><![CDATA[<p>Wide opening service panels provide fast access to daily service checkpoints from the ground level.</p>]]></nav>
+		<nav ID="3" SubTitle="Fast, powerful travel" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="250" yLoc="260"><![CDATA[<p>The unique propel circuit provides straight line travel, regardless of any other functions currently operating.</p>]]></nav>
+	</frame>
+	<frame ID="5" ProductPic="right-rear.swf">
+		<nav ID="0" SubTitle="Upper swing shockless valve" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="260" yLoc="250"><![CDATA[<p>The upper swing shockless valve minimizes rebound motion at the end of the swing cycle for precise swing stops and more precise bucket placement.</p>]]></nav>
+		<nav ID="1" SubTitle="Two-speed travel" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="228" yLoc="276"><![CDATA[<p>Two-speed travel provides an ideal combination of speed and power.</p>]]></nav>
+	</frame>
+</product>

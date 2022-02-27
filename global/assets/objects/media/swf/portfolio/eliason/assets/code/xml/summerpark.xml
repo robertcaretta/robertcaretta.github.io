@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <root assetdirectory="summerpark" interval="20">
+      <item header="Introduction" graphic="intro.swf">
+        <![CDATA[
+          <p>Eliason 1031 Properties, one of the nation's premier TIC Sponsors, is pleased to offer the 358-unit Summer Park apartment community.</p><p>Located in northeast suburban Atlanta, this Class A property was developed in 2001 by a premier multi-family developer and boasts an attractive Mall of Georgia address in Gwinnett County.</p>
+        ]]>
+      </item>
+      <item header="The Property" graphic="property.swf">
+        <![CDATA[
+          <p>Address: 1525 Laurel Crossing Parkway<br/>Buford, Gwinnett County, GA 30519</p> <p># Units: 358<br/># 1 BR: 112<br/># 2 BR: 206<br/># 3 BR: 40</p> <p>Avg. Unit Size: 1,057 square feet<br/>Net Rentable Area: 378,546 square feet<br/>Land Area: 39.267 acres<br/>Parking: 714 spaces including 654 open spaces and 44 detached garages<br />Occupancy: 95.6%</p>
+        ]]>
+      </item>
+      <item header="Resort-Style Amenities" graphic="resort.swf">
+        <![CDATA[
+          <p>Residents are attracted to Summer Park's private wooded setting, which provides the feel of an exclusive resort.</p> <ul> <li>Park-like Wooded Site with Extraordinary Landscaping</li> <li>Controlled Access Gates</li> <li>Clubhouse with Rear Veranda</li> <li>Professional Business Center</li> <li>Stunning Swimming Pool with Spacious Sundeck</li> <li>Fully-Equipped Fitness Center</li> <li>Lighted Tennis Courts</li> <li>Tanning Bed</li> <li>Picnic Areas w/Grills</li> <li>Playground</li> </ul>
+        ]]>
+      </item>
+      <item header="Premium Location" graphic="premium.swf">
+        <![CDATA[
+          <ul><li>Gorgeous private wooded site located near Interstate 85 and Highway 20</li> <li>Excellent access to the Mall of Georgia while allowing residents to avoid heavy mall traffic</li> <li>Direct access to Interstate 985 to the north and Highway 316 to the south</li> <li>15 minutes from Lake Lanier and 40 minutes from the University of Georgia in Athens</li></ul>
+        ]]>
+      </item>
+      <item header="Gwinnett County Overview" graphic="gwinnett.swf">
+        <![CDATA[
+          <p>Population Growth</p> <ul> <li>Ranked one of the top five youngest and fastest growing counties in the country</li> <li>Population has grown 289% since 1980 to more than 650,000</li> <li>Projected to hit 1.2 million by 2025</li> <li>Most of Atlanta's growth is attributable to Gwinnett</li> </ul> <br/><p>Employment/Economic Growth</p> <ul> <li>Employment base has more than doubled since 1990</li> <li>Established high-tech center home to CIBA Vision, Primerica, NCR, Unisys</li> <li>$90 million Arena at Gwinnett Center opened in 1993</li> <li>Massive retail development driven by population growth</li> </ul>
+        ]]>
+      </item>
+      <item header="Metro Atlanta Overview" graphic="metro.swf">
+        <![CDATA[
+          <p> Metro Atlanta has become the economic engine of the Southeast and one of the most dynamic economic bases in the country.</p> <ul> <li>"Hottest Economy in the Country" Inc. Magazine, 2004</li> <li>"4 th Best Place to Do Business" Forbes, 2003</li> <li>Home to many corporate headquarters including UPS and Home Depot </li> </ul> <br/> <p>Population and Economic Growth</p> <ul> <li>Population stands at 3.7 million and is projected to reach 4.8 million by 2010, a 30% increase</li> <li>Economy continues to be a national leader</li> <li>Projected job growth is over 110,000 from 2005-2006</li> <li>Biotech sector has grown 150% over the last decade</li> </ul>
+        ]]>
+      </item>
+      <item header="Mall of Georgia" graphic="mall.swf">
+        <![CDATA[
+          <p>Summer Park is located close to prime retail development anchored by the 2.1 million square foot Mall of Georgia.</p> <ul> <li>Largest retail center in the Southeast</li> <li>Home to upscale retailers such as Nordstrom, Ann Taylor and Williams-Sonoma</li> <li>Draws visitors from as far away as South Carolina</li> <li>Total retail development in the area totals more than 3 million square feet</li> </ul>
+        ]]>
+      </item>
+      <item header="Cash-on-Cash Yield" graphic="payouts.swf">
+        <![CDATA[
+          <ul> <li>6.0%   yrs 1-2</li> <li>6.25% yrs 3-4</li> <li>6.5%   yrs 5-6</li> <li>6.75% yrs 7-8</li> <li>7.0%   yrs 9-10</li> </ul>
+        ]]>
+      </item>
+      <item header="Eliason Master Lease" graphic="masterlease.swf">
+        <![CDATA[
+          <p>This offering has the added benefit of being covered by a 10-year master lease through Eliason Master Lease Corporation (EML). This arrangement gives the investor a level of security, comfort and convenience other TIC's don't offer.</p> <ul> <li>Investors receive monthly contracted payments for 10 years</li> <li>EML pools leases from many diverse properties to provide extra security and stability</li> <li>Even if a property experiences a short-term deficit, EML still pays the investors the full contracted cash payment</li> <li>EML manages and pays for all repairs, maintenance and capital improvements</li> </ul>
+        ]]>
+      </item>
+      <item header="Financial Highlights" graphic="sales.swf">
+        <![CDATA[
+          <p><ul><li>Sales Price:                        $37.65 million</li>
+		  <li>Equity Raise:                      $15.00 million</li>
+		  <li>Debt:                                 $22.65 million</li>
+		  <li>Loan-to-Purchase Price:     60.16%</li>
+		  <li>Minimum Investment:        $450,000</li> <li>$2,000 set-up charge per investor. All other transaction fees and expenses paid by Eliason 1031 Properties.</li> </ul></p>
+        ]]>
+      </item>
+      <item header="Contact Information" graphic="contact.swf">
+        <![CDATA[
+          <p>To learn more about this extraordinary property or to invest or conduct a 1031 Exchange into Summer Park, please contact your local investment representative.</p><p>Eliason 1031 Properties Corporation<br />548 Hwy 155<br />P.O. Box 219 <br />St. Germain, WI 54558<br />Phone: 1-866-ELIASON<br />Fax: 715-479-5434</p>
+        ]]>
+      </item>
+    </root>

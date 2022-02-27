@@ -1,0 +1,20 @@
+.TH10 {  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 10px }
+.TH11 {  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 11px }
+.TH12 {  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 12px }
+.TH14 {  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 14px }
+
+.V10 {  font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif; font-size: 10px }
+.V11 {  font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif; font-size: 11px }
+.V12 {  font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif; font-size: 12px }
+.V14 {  font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif; font-size: 14px }
+
+input, textarea {  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; background: white }
+
+a:hover { color: #575049; text-decoration: underline overline; font-weight: normal }
+a:link, a:visited, a:active { color: #706A63; text-decoration: none; font-weight: normal }
+
+BODY
+{scrollbar-face-color: #9A8879; scrollbar-shadow-color: #575049; 
+scrollbar-highlight-color: #575049; scrollbar-3dlight-color: #575049; 
+scrollbar-darkshadow-color: #575049; scrollbar-track-color: #6D5E52; 
+scrollbar-arrow-color: white}

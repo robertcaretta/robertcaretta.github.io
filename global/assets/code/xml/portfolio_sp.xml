@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <!--<item>
+            <title>RUSD -  Employee Portal</title>
+            <media:description>Sharepoint 2010</media:description>
+            <link>/global/assets/objects/images/portfolio/raw/rusd_sp_employeeportal.jpg</link>
+            <media:thumbnail url="/global/assets/objects/images/portfolio/full/rusd_sp_employeeportal.jpg" />
+            <media:content url="/global/assets/objects/images/portfolio/full/rusd_sp_employeeportal.jpg" />
+        </item>
+        <item>
+            <title>RUSD - Extranet Portal</title>
+            <media:description>Sharepoint 2010</media:description>
+            <link></link>
+            <media:thumbnail url="/global/assets/objects/images/portfolio/full/rusd_sp_extranetportal.jpg" />
+            <media:content url="/global/assets/objects/images/portfolio/full/rusd_sp_extranetportal.jpg" />
+        </item>
+        <item>
+            <title>RUSD - Intranet</title>
+            <media:description>Sharepoint 2010</media:description>
+            <link></link>
+            <media:thumbnail url="/global/assets/objects/images/portfolio/full/rusd_sp_intranetportal.jpg" />
+            <media:content url="/global/assets/objects/images/portfolio/full/rusd_sp_intranetportal.jpg" />
+        </item>
+		<item>
+            <title>RUSD - Custom Employee List</title>
+            <media:description>Sharepoint 2010</media:description>
+            <link>/global/assets/objects/images/portfolio/raw/rusd_sp_employeeportal_customemployeelist.png</link>
+            <media:thumbnail url="/global/assets/objects/images/portfolio/full/rusd_sp_employeeportal_customemployeelist.jpg" />
+            <media:content url="/global/assets/objects/images/portfolio/full/rusd_sp_employeeportal_customemployeelist.jpg" />
+        </item>
+		<item>
+            <title>RUSD - Custom List 01</title>
+            <media:description>Sharepoint 2010</media:description>
+            <link>/global/assets/objects/images/portfolio/raw/rusd_sp_employeeportal_customlist01.png</link>
+            <media:thumbnail url="/global/assets/objects/images/portfolio/full/rusd_sp_employeeportal_customlist01.jpg" />
+            <media:content url="/global/assets/objects/images/portfolio/full/rusd_sp_employeeportal_customlist01.jpg" />
+        </item>
+		<item>
+            <title>RUSD - Custom List 02</title>
+            <media:description>Sharepoint 2010</media:description>
+            <link>/global/assets/objects/images/portfolio/raw/rusd_sp_employeeportal_customlist02.png</link>
+            <media:thumbnail url="/global/assets/objects/images/portfolio/full/rusd_sp_employeeportal_customlist02.jpg" />
+            <media:content url="/global/assets/objects/images/portfolio/full/rusd_sp_employeeportal_customlist02.jpg" />
+        </item>
+		<item>
+            <title>RUSD - Custom Student List</title>
+            <media:description>Sharepoint 2010</media:description>
+            <link>/global/assets/objects/images/portfolio/raw/rusd_sp_employeeportal_customstudentlist.png</link>
+            <media:thumbnail url="/global/assets/objects/images/portfolio/full/rusd_sp_employeeportal_customstudentlist.jpg" />
+            <media:content url="/global/assets/objects/images/portfolio/full/rusd_sp_employeeportal_customstudentlist.jpg" />
+        </item>
+		<item>
+            <title>RUSD - Student Portal</title>
+            <media:description>Sharepoint Online</media:description>
+            <link>/global/assets/objects/images/portfolio/raw/rusd_sp_studentportal.png</link>
+            <media:thumbnail url="/global/assets/objects/images/portfolio/full/rusd_sp_studentportal.jpg" />
+            <media:content url="/global/assets/objects/images/portfolio/full/rusd_sp_studentportal.jpg" />
+        </item>-->
+        <item>
+            <title>Mileage Form (InfoPath)</title>
+            <media:description>Sharepoint 2010</media:description>
+            <link>/global/assets/objects/images/portfolio/raw/rusd_sp_employeeportal_mileage_form.png</link>
+            <media:thumbnail url="/global/assets/objects/images/portfolio/full/rusd_sp_employeeportal_mileage_form.jpg" />
+            <media:content url="/global/assets/objects/images/portfolio/full/rusd_sp_employeeportal_mileage_form.jpg" />
+        </item>
+		<item>
+            <title>Mileage Workflow (Nintex)</title>
+            <media:description>Sharepoint 2010</media:description>
+            <link>/global/assets/objects/images/portfolio/raw/rusd_sp_employeeportal_mileage_workflow.png</link>
+            <media:thumbnail url="/global/assets/objects/images/portfolio/full/rusd_sp_employeeportal_mileage_workflow.jpg" />
+            <media:content url="/global/assets/objects/images/portfolio/full/rusd_sp_employeeportal_mileage_workflow.jpg" />
+        </item>
+		<item>
+            <title>Prof Dev Form (InfoPath)</title>
+            <media:description>Sharepoint 2010</media:description>
+            <link>/global/assets/objects/images/portfolio/raw/rusd_sp_employeeportal_pdr_form.png</link>
+            <media:thumbnail url="/global/assets/objects/images/portfolio/full/rusd_sp_employeeportal_pdr_form.jpg" />
+            <media:content url="/global/assets/objects/images/portfolio/full/rusd_sp_employeeportal_pdr_form.jpg" />
+        </item>
+		<item>
+            <title>Prof Dev Workflow (Nintex)</title>
+            <media:description>Sharepoint 2010</media:description>
+            <link>/global/assets/objects/images/portfolio/raw/rusd_sp_employeeportal_pdr_workflow.png</link>
+            <media:thumbnail url="/global/assets/objects/images/portfolio/full/rusd_sp_employeeportal_pdr_workflow.jpg" />
+            <media:content url="/global/assets/objects/images/portfolio/full/rusd_sp_employeeportal_pdr_workflow.jpg" />
+        </item>
+		<item>
+            <title>Travel Form (InfoPath)</title>
+            <media:description>Sharepoint 2010</media:description>
+            <link>/global/assets/objects/images/portfolio/raw/rusd_sp_employeeportal_travel_form.png</link>
+            <media:thumbnail url="/global/assets/objects/images/portfolio/full/rusd_sp_employeeportal_travel_form.jpg" />
+            <media:content url="/global/assets/objects/images/portfolio/full/rusd_sp_employeeportal_travel_form.jpg" />
+        </item>
+		<item>
+            <title>Travel Workflow (Nintex)</title>
+            <media:description>Sharepoint 2010</media:description>
+            <link>/global/assets/objects/images/portfolio/raw/rusd_sp_employeeportal_travel_workflow.png</link>
+            <media:thumbnail url="/global/assets/objects/images/portfolio/full/rusd_sp_employeeportal_travel_workflow.jpg" />
+            <media:content url="/global/assets/objects/images/portfolio/full/rusd_sp_employeeportal_travel_workflow.jpg" />
+        </item>
+        <item>
+            <title>Fee Collection (Power App)</title>
+            <media:description>Fee Collection Power App</media:description>
+            <link>/global/assets/objects/images/portfolio/raw/rusd_sp_powerapp.jpg</link>
+            <media:thumbnail url="/global/assets/objects/images/portfolio/full/rusd_sp_powerapp.jpg" />
+            <media:content url="/global/assets/objects/images/portfolio/full/rusd_sp_powerapp.jpg" />
+        </item>
+        <item>
+            <title>Departments (SP Online)</title>
+            <media:description>Departments (SP Online)</media:description>
+            <link></link>
+            <media:thumbnail url="/global/assets/objects/images/portfolio/full/rusd_sp_o365_departments.jpg" />
+            <media:content url="/global/assets/objects/images/portfolio/full/rusd_sp_o365_departments.jpg" />
+        </item>
+        <item>
+            <title>Document Center (SP Online)</title>
+            <media:description>Document Center (SP Online)</media:description>
+            <link></link>
+            <media:thumbnail url="/global/assets/objects/images/portfolio/full/rusd_sp_o365_documents.jpg" />
+            <media:content url="/global/assets/objects/images/portfolio/full/rusd_sp_o365_documents.jpg" />
+        </item>
+        <item>
+            <title>Form Center (SP Online)</title>
+            <media:description>Form Center (SP Online)</media:description>
+            <link></link>
+            <media:thumbnail url="/global/assets/objects/images/portfolio/full/rusd_sp_o365_forms.jpg" />
+            <media:content url="/global/assets/objects/images/portfolio/full/rusd_sp_o365_forms.jpg" />
+        </item>
+        <item>
+            <title>LiveChat (Azure Logic App)</title>
+            <media:description>LiveChat (Azure Logic App)</media:description>
+            <link>/global/assets/objects/images/portfolio/raw/rusd_azure_logicapp_livechat.png</link>
+            <media:thumbnail url="/global/assets/objects/images/portfolio/full/rusd_azure_logicapp_livechat.jpg" />
+            <media:content url="/global/assets/objects/images/portfolio/full/rusd_azure_logicapp_livechat.jpg" />
+        </item>
+        <item>
+            <title>Parent Complaint (Office 365 Flow)</title>
+            <media:description>Parent Complaint (Office 365 Flow)</media:description>
+            <link>/global/assets/objects/images/portfolio/raw/rusd_o365_flow_parentcomplaint.png</link>
+            <media:thumbnail url="/global/assets/objects/images/portfolio/full/rusd_o365_flow_parentcomplaint.jpg" />
+            <media:content url="/global/assets/objects/images/portfolio/full/rusd_o365_flow_parentcomplaint.jpg" />
+        </item>
+        <item>
+            <title>Security Camera (Office 365 Flow)</title>
+            <media:description>Security Camera (Office 365 Flow)</media:description>
+            <link>/global/assets/objects/images/portfolio/raw/rusd_o365_flow_securitycamera.png</link>
+            <media:thumbnail url="/global/assets/objects/images/portfolio/full/rusd_o365_flow_securitycamera.jpg" />
+            <media:content url="/global/assets/objects/images/portfolio/full/rusd_o365_flow_securitycamera.jpg" />
+        </item>
+    </channel>
+</rss>

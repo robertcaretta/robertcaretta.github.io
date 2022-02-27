@@ -1,0 +1,92 @@
+﻿        body { 
+            background-color: #03070b; 
+            background-image: url("/global/assets/objects/images/global/bodyBG.gif"); 
+            background-repeat:repeat-x;
+            background-position:top;
+            padding: 0px 0px 20px 0px;
+            margin: 0px;
+            text-align:center; 
+            color:#454a50;
+            font-family:Verdana;
+            font-size:80%; 
+         }
+         #form1 {
+            margin: 0px;
+            padding:0px;
+        }
+        #headerCC {
+            margin: 0px auto 0px auto;
+            width: 975px;
+            height: 181px;
+            background-image: url("/global/assets/objects/images/global/headerBG.png"); 
+            background-repeat:no-repeat;
+            background-position:top;
+        }
+        #wallCC {
+            margin: 0px auto 0px auto;
+            width: 975px;
+        }
+        #wall {
+            float:left;
+            width:975px;
+            height:400px;
+            background-image: url("/global/assets/objects/images/global/wallBG.jpg"); 
+            background-repeat:no-repeat;
+            color: #ffffff;
+        }
+        a {
+            color: #1f79c8;
+        }
+        a:hover {
+            color:#ffffff;
+        }
+        #footerCC {
+            width: 975px;
+            margin: 0px auto 0px auto;
+            padding: 4px 0px 0px 0px;
+            clear:both;
+        }
+        a.globe {
+            background-image: url("/global/assets/objects/images/icons/globe.png"); 
+            background-repeat:no-repeat;
+            padding-left: 20px;
+            margin-right: 15px;
+        }
+        a.flash {
+            background-image: url("/global/assets/objects/images/icons/flash.gif"); 
+            background-repeat:no-repeat; background-position: 0px 1px;
+            padding-left: 20px;
+        }
+        a.pdf {
+            background-image: url("/global/assets/objects/images/icons/pdf.gif"); 
+            background-repeat:no-repeat;
+            padding-left: 20px;
+            margin-right: 15px;
+        }
+        a.email{
+            background-image: url("/global/assets/objects/images/icons/email.gif"); 
+            background-repeat:no-repeat; 
+            padding-left: 20px;
+            margin-right: 15px;
+        }
+        a.linkedin{
+            background-image: url("/global/assets/objects/images/icons/linkedin.png"); 
+            background-repeat:no-repeat;
+            padding-left: 20px;
+            margin-right: 15px;
+        }
+        a.twitter{
+            background-image: url("/global/assets/objects/images/icons/twitter.png"); 
+            background-repeat:no-repeat;
+            padding-left: 19px;
+        }
+        /*#wallCover {
+            width:90px;
+            height:24px;
+            position:relative;
+            top:-132px;
+            left: 5px;
+            background-color: #0c0f14; 
+          filter:alpha(opacity=0);
+          opacity:0;
+        }*/

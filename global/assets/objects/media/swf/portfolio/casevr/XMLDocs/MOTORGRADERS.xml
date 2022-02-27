@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Motor Graders -->
+<Product PDF="">
+	<Frame ID="1">
+		<Nav ID="0" SubTitle="Frame 1 Nav 0" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>85 square feet of cab glass provides a panoramic view. Foot-level glass gives excellent view to the moldboard.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Frame 1 Nav 1" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>The body has a sleek clean design with hydraulic hoses hidden inside frame, improving visibility.</p>]]></Nav>
+		<Nav ID="2" SubTitle="Frame 1 Nav 2" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Moldboards come in 12-14 foot widths and are made from high-carbon steel for long life. The moldboard's involute multi-radius design cuts, mixes and rolls material off the moldboard like a wave. Extensions can add 2 feet on each end of the moldboard.</p>]]></Nav>
+	</Frame>
+	<Frame ID="2">
+		<Nav ID="0" SubTitle="Frame 2 Nav 0" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Light package includes upper and lower cab-mounted floodlights, rear floodlights, headlights and worklights mounted above the moldboard. The graders are equipped with front and rear turn indicators and hazard indicators.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Frame 2 Nav 1" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Front attachments include a scarifier with up to 11 teeth, a V plow and dozer blade.</p>]]></Nav>
+		<Nav ID="2" SubTitle="Frame 2 Nav 2" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Front tires lean up to 17.5 degrees left or right to prevent side drift when cutting a ditch.</p>]]></Nav>
+		<Nav ID="3" SubTitle="Frame 2 Nav 3" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Front and rear sunscreens are standard for optimum comfort.</p>]]></Nav>
+	</Frame>
+	<Frame ID="3">
+		<Nav ID="0" SubTitle="Frame 3 Nav 0" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>5 position locking saddle allows the moldboard to tilt up to 90 degrees.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Frame 3 Nav 1" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Flip-down side panels increase access to service points.</p>]]></Nav>
+		<Nav ID="2" SubTitle="Frame 3 Nav 2" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Heavy-duty circle and hydraulics give the moldboard tremendous versatility.</p>]]></Nav>
+		<Nav ID="3" SubTitle="Frame 3 Nav 3" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Hydraulic diagnostic test ports are easy to access.</p>]]></Nav>
+		<Nav ID="4" SubTitle="Frame 3 Nav 4" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Operator-activated differential lock or limited-slip axles keep wheels moving in muddy or slippery conditions.</p>]]></Nav>
+		<Nav ID="5" SubTitle="Frame 3 Nav 5" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Bolt-on removable left and right tie-down brackets aid in secure transport.</p>]]></Nav>
+	</Frame>
+	<Frame ID="4">
+		<Nav ID="0" SubTitle="Frame 4 Nav 0" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Large hydraulically driven cooling fan runs quietly and draws less horsepower for better fuel efficiency.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Frame 4 Nav 1" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Heavy-duty breakaway mirrors enhance operator visibility.</p>]]></Nav>
+		<Nav ID="2" SubTitle="Frame 4 Nav 2" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Convenient steps ease access to powertrain.</p>]]></Nav>
+	</Frame>
+	<Frame ID="5">
+		<Nav ID="0" SubTitle="Frame 5 Nav 0" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Rear attachments include a ripper or ripper-scarifier combination other grader attachments include a wing for snow control.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Frame 5 Nav 1" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Wide openings and steps on both side of the cab ease entry and exit.</p>]]></Nav>
+		<Nav ID="2" SubTitle="Frame 5 Nav 2" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Heavy-duty powertrain delivers the performance needed for tough conditions. For added versatility and extra power, the 865 model comes in a dual horsepower (DHP) version.</p>]]></Nav>
+	</Frame>
+	<Frame ID="6">
+		<Nav ID="0" SubTitle="Frame 6 Nav 0" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Sloping rear hood includes industry-exclusive tilt-up feature that provides easy access to the engine and daily service points, making Case graders best in class on an SAE maintainability index.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Frame 6 Nav 1" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Unique A-frame design of the drawbar provides strength and stability to the circle and moldboard.</p>]]></Nav>
+		<Nav ID="2" SubTitle="Frame 6 Nav 2" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Ground-level fuel fill with locking cap saves time and improves efficiency.</p>]]></Nav>
+		<Nav ID="3" SubTitle="Frame 6 Nav 3" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>The moldboard shifts up to 21 inches (533 mm) left and 27 inches (686 mm) right. The moldboard is designed to accommodate laser systems for precision grading.</p>]]></Nav>
+		<Nav ID="4" SubTitle="Frame 6 Nav 4" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Industry-standard, low-effort controls will suit any operator. Adjustable steering column and deluxe seat improve operator comfort and productivity.</p>]]></Nav>
+		<Nav ID="5" SubTitle="Frame 6 Nav 5" SubPic1="" SubPic2="" SubPic3=""><![CDATA[<p>Heavy-duty front and rear frame provides strength and performance for productivity and long machine life.</p>]]></Nav>
+	</Frame>
+</Product>

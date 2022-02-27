@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<Nav ID="1" SubTitle="Hydraulic self-leveling" SubPic1="2_1_465_023_08.jpg" SubPic2="2_1_70XT_007-04.jpg" SubPic3="NA"><![CDATA[<p>Available hydraulic self-leveling creates less spillage through a level bucket position throughout the lift cycle.</p>]]></Nav>-->
+<!--<Nav ID="2" SubTitle="Power Reach design" SubPic1="3_2_465_3941.jpg" SubPic2="3_2_450_017_04.jpg" SubPic3="3_2_465_02310R.jpg"><![CDATA[<p>The Power Reach design allows the loader arms to maintain maximum reach throughout the lift cycle making dumps onto high-sided trucks and trailers easier.</p>]]></Nav>-->
+<!--<Nav ID="0" SubTitle="Stable design" SubPic1="4_0_465_013-12.jpg" SubPic2="NA" SubPic3="NA"><![CDATA[<p>A 51 inch wheel base offers more stability over uneven surfaces.</p>]]></Nav>-->
+<Product PDF="">
+	<Frame ID="1">
+		<Nav ID="0" SubTitle="Loader Geometry" SubPic1="NA" SubPic2="NA" SubPic3="NA"><![CDATA[<p>Case Skid Steer models ending in "0" offer the power cycle radial arm configuration while machines with model numbers ending in "5"  come with the power reach vertical lift arm. Choose a "0" model with the radial arm when high production digging and faster cycle times are important. Select a "5" model with vertical lift when your application involves lifting and reaching (for example when placing loads on trailers).</p>]]></Nav>
+		<Nav ID="1" SubTitle="One-Piece Welded Chassis" SubPic1="NA" SubPic2="NA" SubPic3="NA"><![CDATA[<p>A one-piece welded frame stands up under the pressure of daily work. The welded hydraulic tank protects and helps dissipate heat for cooler hydraulic system operation.</p>]]></Nav>
+		<Nav ID="2" SubTitle="Comfortable cab" SubPic1="1_2_400Series_00806.jpg" SubPic2="1_2_465_3978.jpg" SubPic3="1_2_465_3971.jpg"><![CDATA[<p>A factory-ready cab offers comfort and visibility. Options such as heat, air conditioning, sound pads, a Lexan shatter-resistant front door, top and side windows are available.</p>]]></Nav>
+	</Frame>
+	<Frame ID="2">
+		<Nav ID="0" SubTitle="Full operator's view" SubPic1="2_0_400_Series_021-03.jpg" SubPic2="NA" SubPic3="NA"><![CDATA[<p>Operators have a full view of the bucket, tires and curb line from the cab.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Operator-friendly controls" SubPic1="2_1_465_3969.jpg" SubPic2="2_1_465_3975.jpg" SubPic3="2_1_400_Series_021-03.jpg"><![CDATA[<p>Operators will enjoy the ergonomically designed low-effort servo-static controls allowing absolute control while reducing fatigue.</p>]]></Nav>
+		<Nav ID="2" SubTitle="Attachment versatility" SubPic1="2_2_465_013_10.jpg" SubPic2="2_2_465_020_05.jpg" SubPic3="2_2_465_022_02.jpg"><![CDATA[<p>A full array of attachments is available for the Case Skid Steers including augers, brooms, backhoes, dozer blades, stump grinders, landscape rakes, tree shears, tree spades, scarifiers, snowblowers, forks, buckets and more.</p>]]></Nav>
+	</Frame>
+	<Frame ID="3">
+		<Nav ID="0" SubTitle="Halogen lights for optimum view" SubPic1="3_0_465_3949.jpg" SubPic2="3_0_465_3944.jpg" SubPic3="NA"><![CDATA[<p>For night operation, front and rear halogen lights are standard.</p>]]></Nav>
+		<Nav ID="1" SubTitle="10-second No tools" SubPic1="3_1_465_3979.JPG" SubPic2="3_1_465_3980.JPG" SubPic3="3_1_465_3982.JPG"><![CDATA[<p>The easy-tilt ten-second ROPS makes service to major components easy and quick.</p>]]></Nav>
+		<Nav ID="2" SubTitle="Faster speeds" SubPic1="NA" SubPic2="NA" SubPic3="NA"><![CDATA[<p>On models 430 and above, an optional push-button, two-speed drive motor provides acceleration from a low range 7mph to 11mph in high range. This allows for quicker cycle times and movement around the job site. The trigger-style switch is comfortably positioned for easy use. </p>]]></Nav>
+	</Frame>
+	<Frame ID="4">
+		<Nav ID="0" SubTitle="Reliable and powerful Case engine" SubPic1="4_0_400_Series_001_02.jpg" SubPic2="NA" SubPic3="NA"><![CDATA[<p>In addition to being Tier 2 certified, the new large-displacement, high-torque, long-life Case Family III engines on the 430, 440, 445, 450 and 465 provide quiet, smooth power for productive operation. The 410, the smallest model, has a naturally aspirated Case engine, and the 420 has a turbocharged Case engine. Both are also Tier 2 certified.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Self-leveling" SubPic1="NA" SubPic2="NA" SubPic3="NA"><![CDATA[<p>The 450 comes standard with mechanical two-way self leveling. The other models offer optional hydraulic self leveling for raising the bucket.</p>]]></Nav>
+	</Frame>
+	<Frame ID="5">
+		<Nav ID="0" SubTitle="Quick access to service points" SubPic1="5_0_465_4212.jpg" SubPic2="5_0_465_4214.jpg" SubPic3="5_0_445_003_01.jpg"><![CDATA[<p>Checking the fuel fill, oil fill, engine oil and air cleaner is easily accomplished by lifting the rear hood.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Industry-leading operating load" SubPic1="5_1_90XT_074_04.jpg" SubPic2="5_1_450_014_06.jpg" SubPic3="5_1_445_01008R.jpg"><![CDATA[<p>Case 400 Series Skid Steers deliver a range of operating loads and lift capacities to meet customer requirements, including the industry's highest lift capacity in the 465.</p>]]></Nav>
+		<Nav ID="2" SubTitle="Powerful alternator" SubPic1="5_2_465_4182.jpg" SubPic2="NA" SubPic3="NA"><![CDATA[<p>Models 430 and above feature a 95-amp alternator for reliable starts.</p>]]></Nav>
+	</Frame>
+	<Frame ID="6">
+		<Nav ID="0" SubTitle="Convenient coolant access" SubPic1="6_0_450_011-09.jpg" SubPic2="6_0_465_4213.jpg" SubPic3="6_0_400Series_02608.jpg"><![CDATA[<p>A quick check of the coolant and hydraulic oil levels is performed by opening the swing-out service door.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Greater tractive effort" SubPic1="6_1_95XT_101-05.jpg" SubPic2="NA" SubPic3="NA"><![CDATA[<p>Case 400 Series Skid Steers deliver outstanding tractive effort and travel speeds in demanding environments. This is especially true with the models 430 and above, which feature radial piston hydrostatic drive motors.</p>]]></Nav>
+	</Frame>
+	<Frame ID="7">
+		<Nav ID="0" SubTitle="Fewer oil changes" SubPic1="7_0_465_4209.jpg" SubPic2="NA" SubPic3="NA"><![CDATA[<p>Case engines on the Series 400 Skid Steers have a 500-hour oil change recommendation for lower operating costs.</p> ]]></Nav>
+		<Nav ID="1" SubTitle="Easy component cleaning" SubPic1="7_1_465_4233.jpg" SubPic2="NA" SubPic3="NA"><![CDATA[<p>The oil cooler and radiator have a pull-out design for easy cleaning.</p>]]></Nav>
+		<Nav ID="2" SubTitle="Exceptional breakout force " SubPic1="7_2_95XT_110-01.jpg" SubPic2="7_2_430_00407.jpg" SubPic3="NA"><![CDATA[<p>Exceptional breakout force is the rule with the Case 400 Series Skid Steers up to the 465 with a bucket breakout force of 6,175 lbs.</p>]]></Nav>
+	</Frame>
+	<Frame ID="8">
+		<Nav ID="0" SubTitle="Easy attachment changes" SubPic1="8_0_Pg19_Hydraulics.jpg" SubPic2="8_0_465_3966.jpg" SubPic3="NA"><![CDATA[<p>An optional hydraulic attachment quick coupler makes switching attachments quick and simple without leaving the operator's seat.</p>]]></Nav>
+		<Nav ID="1" SubTitle="Multiple tire options" SubPic1="8_1_Pg20_Galaxy.jpg" SubPic2="8_1_Pg20_MITCO.jpg" SubPic3="8_1_Pg20_SteelTrack.jpg"><![CDATA[<p>The Galaxy Fat Foot Flotation, MITCO Solid and Case Steel Tracks are just a few of the tire options available for the 400 Series skid steers. The 400 Series can handle many tires for many needs.</p>]]></Nav>
+		<Nav ID="2" SubTitle="Optional grid heater" SubPic1="NA" SubPic2="NA" SubPic3="NA"><![CDATA[<p>An optional grid heater is available for cold-weather starts.</p>]]></Nav>
+	</Frame>
+</Product>

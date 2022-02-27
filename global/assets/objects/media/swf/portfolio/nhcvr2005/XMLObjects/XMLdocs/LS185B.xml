@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<product Name="LS185.B Skid Steer" ImageFolder="LS185B">
+	<frame ID="0" ProductPic="right-front.swf">
+		<nav ID="0" SubTitle="New Holland Construction’s third-generation SuperBoom vertical-lift design" SubPic1="0_0_LS185.B.4764.jpg" SubPic2="0_0_LS185.B.4765.jpg" SubPic3="0_0_LS185.B.4766.jpg" SubPic4="0_0_LS185.B.4767.jpg" xLoc="340" yLoc="235"><![CDATA[<p>The vertical lift linkage of SuperBoom ensures that the higher the load is lifted, the farther forward the load can be placed.</p>]]></nav>
+	</frame>
+	<frame ID="1" ProductPic="front.swf">
+		<nav ID="0" SubTitle="Low-effort, self-neutralizing hand controls and responsive foot controls" SubPic1="1_0_LS185.B.4784.jpg" SubPic2="" SubPic3="" SubPic4="" xLoc="258" yLoc="226"><![CDATA[<p>The easy-to-use platform allows the operator to spend a full day on the job and still feel productive at quitting time.</p>]]></nav>
+		<nav ID="1" SubTitle="Easy access to power train components by lifting seat" SubPic1="1_1_527300-7A.jpg" SubPic2="" SubPic3="" SubPic4="" xLoc="230" yLoc="212"><![CDATA[<p>Flip up the seat -- without tools -- to access the hydraulic pumps and drivetrain components.</p>]]></nav>
+	</frame>
+	<frame ID="2" ProductPic="left-front.swf">
+		<nav ID="0" SubTitle="Overhead user-friendly instrument panel" SubPic1="2_0_instruments.jpg" SubPic2="" SubPic3="" SubPic4="" xLoc="210" yLoc="160"><![CDATA[<p>A new digital overhead instrument panel provides clear, quick references to important indicators and service points.</p>]]></nav>
+		<nav ID="1" SubTitle="Easy entrance and exit to / from the widest cab in the industry" SubPic1="2_1_LS185.B.4666.jpg" SubPic2="2_1_LS185.B.4753.jpg" SubPic3="2_1_LS185.B.4758.jpg" SubPic4="" xLoc="232" yLoc="200"><![CDATA[<p>Operators will appreciate the new cab enclosure option, with optional air conditioning to keep them cool, productive and alert on the hottest days.</p>]]></nav>
+	</frame>
+	<frame ID="3" ProductPic="left.swf">
+		<nav ID="0" SubTitle="Low center of gravity, long wheelbase, and standard full suspension seat" SubPic1="3_0_LS185.B.4679.jpg" SubPic2="3_0_LS185.B.4735.jpg" SubPic3="3_0_LS185.B.4750.jpg" SubPic4="" xLoc="250" yLoc="300"><![CDATA[<p>The superior stability of New Holland Construction skid steer loaders provides an excellent ride and allows the operator to travel with a full bucket over the roughest terrain without worry of spillage material or unexpected tipping.</p>]]></nav>
+		<nav ID="1" SubTitle="Super Boom advantage" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="275" yLoc="230"><![CDATA[<p>Super Boom geometry provides more lift capacity per pound of total machine weight.</p>
+
+<p><i>For an animated demonstration of Super Boom click on the flashing link below the product.</i></p>]]></nav>
+	</frame>
+	<frame ID="4" ProductPic="left-rear.swf">
+		<nav ID="0" SubTitle="Service doors provide easy access to engine and service ports" SubPic1="4_0_LS185.B.4777.jpg" SubPic2="4_0_LS185.B.4779.jpg" SubPic3="4_0_LS185.B.4780.jpg" SubPic4="" xLoc="375" yLoc="263"><![CDATA[<p>With easy access to routine maintenance points, daily maintenance chores are lowered and the bottom line is increased.</p>]]></nav>
+	</frame>
+	<frame ID="5" ProductPic="rear.swf">
+		<nav ID="0" SubTitle="Excellent visibility" SubPic1="5_0_527300-7C.jpg" SubPic2="" SubPic3="" SubPic4="" xLoc="255" yLoc="165"><![CDATA[<p>Super Boom skid steers offer industry-leading visibility because there are no rear frame towers to block your view.</p>]]></nav>
+	</frame>
+	<frame ID="6" ProductPic="right-rear.swf">
+		<nav ID="0" SubTitle="" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="" yLoc=""><![CDATA[<p></p>]]></nav>
+	</frame>
+	<frame ID="7" ProductPic="right.swf">
+		<nav ID="0" SubTitle="Two-speed travel for better productivity" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="160" yLoc="265"><![CDATA[<p>Fast ground speeds decrease cycle times and increase output.</p>]]></nav>
+	</frame>
+</product>

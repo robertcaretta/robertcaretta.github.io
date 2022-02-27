@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product Name="LT185.B Compact Track Loader" ImageFolder="LT185B">
+	<frame ID="0" ProductPic="right-front.swf">
+		<nav ID="0" SubTitle="Super Boom vertical-lift design" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="252" yLoc="190"><![CDATA[<p>The vertical lift linkage of New Holland Construction’s Super Boom ensures that the higher the load is lifted, the farther forward the load can be placed.</p>]]></nav>
+	</frame>
+	<frame ID="1" ProductPic="front.swf">
+		<nav ID="0" SubTitle="Easy entrance and exit to/from cab" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="290" yLoc="150"><![CDATA[<p>Operators will appreciate the optional cab enclosure, with optional air conditioning to keep them cool, productive and alert on the hottest days.</p>]]></nav>
+	</frame>
+	<frame ID="2" ProductPic="left-front.swf">
+		<nav ID="0" SubTitle="Durable tracks" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="343" yLoc="216"><![CDATA[<p>The durable tracks effectively work over sensitive turf, rough ground and in wet, muddy and sandy conditions with less compaction.</p>]]></nav>
+	</frame>
+	<frame ID="3" ProductPic="left-rear.swf">
+		<nav ID="0" SubTitle="Unmatched stability" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="261" yLoc="292"><![CDATA[<p>The low center of gravity and wide stance provides an excellent ride and allows the machine to travel with a full bucket over the roughest terrain without worry of spillage material or unexpected tipping.</p>]]></nav>
+	</frame>
+	<frame ID="4" ProductPic="rear.swf">
+		<nav ID="0" SubTitle="Easy access to engine and service ports" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="250" yLoc="225"><![CDATA[<p>With easy access to routine maintenance points, daily maintenance chores are lowered and the bottom line is increased.</p>]]></nav>
+		<nav ID="1" SubTitle="Excellent visibility" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="250" yLoc="120"><![CDATA[<p>With no rear frame towers to block the view, New Holland Construction compact track loaders provide industry-leading visibility.</p>]]></nav>
+	</frame>
+	<frame ID="5" ProductPic="right-rear.swf">
+		<nav ID="0" SubTitle="Rugged, simple undercarriage" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="141" yLoc="269"><![CDATA[<p>Our patent-pending design is robust for long life, keeping maintenance to a minimum.</p>]]></nav>
+		<nav ID="1" SubTitle="Two speed transmission" SubPic1="" SubPic2="" SubPic3="" SubPic4="" xLoc="263" yLoc="257"><![CDATA[<p>Standard two speed transmission increases productivity. Low speed for pushing into a pile, and high speed for traveling at up to eight miles per hour.</p>]]></nav>
+	</frame>
+</product>

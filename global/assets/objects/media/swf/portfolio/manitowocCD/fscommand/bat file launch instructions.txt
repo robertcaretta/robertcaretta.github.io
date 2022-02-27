@@ -1,0 +1,26 @@
+Crane.bat has the command to launch the file.
+exitCrane.bat has the code to launch Crane.bat and immediately exit DOS prompt.
+
+on(release) { 
+     fscommand("exec","exitCrane.bat")
+}
+
+
+fsCommand("exec", myFile.bat)
+
+
+
+// code example in crane files //
+// @echo off
+// start Rob.ppt
+// exit
+
+
+
+// --------------------------------------------
+ALL files must go into a folder called fscommand. In the flash player use the following code.
+
+// launch application
+ fscommand("exec", "exitCrane.bat");
+
+The flash player will automatically go look for the files in the fscommand folder. It does not need to be referenced. Gay.
