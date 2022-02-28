@@ -1,4 +1,4 @@
-### Hi there 👋
+### Thanks for checking the site out! 👋
 
 <!--
 **robertcaretta/robertcaretta** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
