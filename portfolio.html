@@ -1,0 +1,2611 @@
+<!DOCTYPE html>
+<html class="dark" lang="en" style="">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="web_standard" name="shell-type">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&amp;display=swap" rel="stylesheet">
+  <style>
+    @layer base {
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        overscroll-behavior: none;
+      }
+
+      main>:first-child {
+        margin-top: 0 !important;
+      }
+
+      main>:last-child {
+        margin-bottom: 0 !important;
+      }
+    }
+
+    ::-webkit-scrollbar {
+      display: none;
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script
+    id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "surface-container-lowest": "#0d0e12", "surface-variant": "#343439", "outline": "#8b919f", "on-error-container": "#ffdad6", "background": "#121317", "on-primary-fixed-variant": "#00458f", "error-container": "#93000a", "surface-tint": "#abc7ff", "on-error": "#690005", "primary-fixed": "#d7e2ff", "tertiary-fixed": "#c4e7ff", "on-surface-variant": "#c1c6d6", "primary-container": "#0071e3", "secondary": "#c0c1ff", "inverse-on-surface": "#2f3035", "secondary-fixed": "#e1e0ff", "surface-container-high": "#292a2e", "surface-container-highest": "#343439", "error": "#ffb4ab", "surface-bright": "#38393e", "on-secondary-fixed": "#07006c", "secondary-container": "#3131c0", "surface-dim": "#121317", "primary-fixed-dim": "#abc7ff", "surface-container-low": "#1a1b20", "inverse-primary": "#005cbb", "on-background": "#e3e2e8", "tertiary-fixed-dim": "#7bd0ff", "on-tertiary": "#00354a", "on-primary-fixed": "#001b3f", "on-tertiary-container": "#f8fbff", "on-secondary": "#1000a9", "secondary-fixed-dim": "#c0c1ff", "on-secondary-container": "#b0b2ff", "on-primary": "#002f66", "surface-container": "#1f1f24", "inverse-surface": "#e3e2e8", "on-tertiary-fixed": "#001e2c", "on-primary-container": "#fcfbff", "on-tertiary-fixed-variant": "#004c69", "tertiary": "#7bd0ff", "surface": "#121317", "outline-variant": "#414753", "on-surface": "#e3e2e8", "primary": "#abc7ff", "on-secondary-fixed-variant": "#2f2ebe", "tertiary-container": "#007ca8" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "space-xl": "2.5rem", "gutter-mobile": "1rem", "margin": "3rem", "space-sm": "0.5rem", "gutter": "1.5rem", "space-lg": "1.5rem", "margin-mobile": "1.25rem", "space-xs": "0.25rem", "space-md": "1rem" }, fontFamily: { "headline-xl-mobile": ["Geist"], "label-md": ["Geist"], "body-md": ["Geist"], "headline-lg": ["Geist"], "display-hero-mobile": ["Geist"], "headline-xl": ["Geist"], "code-mono": ["JetBrains Mono"], "headline-md": ["Geist"], "label-sm": ["Geist"], "body-lg": ["Geist"], "display-hero": ["Geist"] }, fontSize: { "headline-xl-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "600" }], "label-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "500" }], "body-md": ["15px", { "lineHeight": "22px", "letterSpacing": "-0.005em", "fontWeight": "400" }], "headline-lg": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "500" }], "display-hero-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.025em", "fontWeight": "600" }], "headline-xl": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.025em", "fontWeight": "600" }], "code-mono": ["13px", { "lineHeight": "20px", "letterSpacing": "0em", "fontWeight": "400" }], "headline-md": ["20px", { "lineHeight": "28px", "letterSpacing": "-0.015em", "fontWeight": "500" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "600" }], "body-lg": ["17px", { "lineHeight": "26px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "display-hero": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.03em", "fontWeight": "600" }] } } } };</script>
+  <title>Robert Caretta | Legacy Web Portfolio</title>
+</head>
+
+<body
+  class="bg-background font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container min-h-screen flex flex-col">
+  <main class="w-full bg-background flex-1 relative">
+    <div class="flex flex-col w-full">
+      <!-- Dynamic Ambient Glow Backdrops -->
+      <div class="relative w-full overflow-hidden">
+        <div
+          class="absolute top-0 left-1/4 w-96 h-96 bg-primary-container/10 rounded-full blur-[140px] pointer-events-none -z-10">
+        </div>
+        <div
+          class="absolute top-48 right-1/4 w-[28rem] h-[28rem] bg-secondary-container/15 rounded-full blur-[160px] pointer-events-none -z-10">
+        </div>
+        <div class="max-w-7xl mx-auto px-6 lg:px-12 py-10 flex flex-col gap-10">
+          <!-- Header Section -->
+          <header class="flex flex-col gap-6 relative">
+            <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-8">
+              <div class="max-w-3xl flex flex-col gap-3">
+                <h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">Legacy Web&nbsp;<span
+                    class="text-transparent bg-clip-text bg-gradient-to-r from-primary via-tertiary to-primary-container">Portfolio</span>
+                </h1>
+                <p class="font-body-lg text-body-lg text-on-surface-variant">
+                  A retrospective of web design, digital interactive media, and multimedia.</p>
+              </div>
+              <!-- Glass Metric Badges Strip -->
+              <div
+                class="flex items-center gap-3 bg-surface-container-low p-2 rounded-xl shadow-[inset_0_1px_0_0_rgba(255,255,255,0.08)]">
+                <div class="px-4 py-2 flex flex-col">
+                  <span class="font-headline-md text-headline-md font-semibold text-primary"
+                    id="total-visible-count">69</span>
+                  <span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Archived Items</span>
+                </div>
+
+
+              </div>
+            </div>
+          </header>
+          <!-- Gallery Grid -->
+          <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6" id="portfolio-grid">
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="0">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/hq-web_alphadotnet.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/hq-web_alphadotnet.jpg'"
+                  alt="AlphaDotNet Web System" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    AlphaDotNet Web System
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Web Portal</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="1">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/hq-web_beeline.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/hq-web_beeline.jpg'"
+                  alt="Beeline Delivery Network" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Beeline Delivery Network
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Web Platform</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="2">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/hq-web_cathmed.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/hq-web_cathmed.jpg'"
+                  alt="Catholic Medical Center" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Catholic Medical Center
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Healthcare Web</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="3">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/hq-web_dairyland.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/hq-web_dairyland.jpg'"
+                  alt="Dairyland Insurance Services" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Dairyland Insurance Services
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Commercial Portal</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="4">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/hq-web_e2systems.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/hq-web_e2systems.jpg'"
+                  alt="E2 Systems Architecture" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    E2 Systems Architecture
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Tech Solutions</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="5">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/hq-web_eriemedical.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/hq-web_eriemedical.jpg'"
+                  alt="Erie Medical Portal" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Erie Medical Portal
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Healthcare Web</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="6">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/hq-web_evansassoc.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/hq-web_evansassoc.jpg'"
+                  alt="Evans &amp; Associates Corporate" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Evans &amp; Associates Corporate
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Consulting Web</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="7">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/hq-web_midwestheart.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/hq-web_midwestheart.jpg'"
+                  alt="Midwest Heart Specialists" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Midwest Heart Specialists
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Clinical Web</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="8">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/hq-web_milwaukeehydraulics.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/hq-web_milwaukeehydraulics.jpg'"
+                  alt="Milwaukee Hydraulics" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Milwaukee Hydraulics
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Industrial Web</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="9">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/hq-web_ocenco.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/hq-web_ocenco.jpg'"
+                  alt="Ocenco Safety Systems" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Ocenco Safety Systems
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Manufacturing</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="10">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/hq-web_oconomowoc.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/hq-web_oconomowoc.jpg'"
+                  alt="Oconomowoc Community Web" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Oconomowoc Community Web
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Municipal Web</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="11">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/hq-web_plumbgold.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/hq-web_plumbgold.jpg'"
+                  alt="Plumb Gold Jewelers" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Plumb Gold Jewelers
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Luxury E-Commerce</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="12">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/hq-web_prloghomes.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/hq-web_prloghomes.jpg'"
+                  alt="PR Log Homes Architecture" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    PR Log Homes Architecture
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Construction Web</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="13">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/hq-web_rso.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/hq-web_rso.jpg'"
+                  alt="Racine Symphony Orchestra" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Racine Symphony Orchestra
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Arts &amp; Culture</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="14">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/hq-web_shavers.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/hq-web_shavers.jpg'"
+                  alt="Shavers Online Store" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Shavers Online Store
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Commerce</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="15">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/hq-web_thejamesons.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/hq-web_thejamesons.jpg'"
+                  alt="The Jamesons Media" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    The Jamesons Media
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Digital Media</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="16">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/hq-web_umisco.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/hq-web_umisco.jpg'"
+                  alt="Umisco Manufacturing Portal" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Umisco Manufacturing Portal
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Industrial Web</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="17">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/hq-web_volleyball.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/hq-web_volleyball.jpg'"
+                  alt="Wisconsin Volleyball League" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Wisconsin Volleyball League
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Sports Media</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="18">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/hq_web_headquarters2.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/hq_web_headquarters2.jpg'"
+                  alt="Headquarters Enterprise II" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Headquarters Enterprise II
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Enterprise Web</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="19">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-newmedia_araIntro.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-newmedia_araIntro.jpg'"
+                  alt="ARA Interactive Intro CD" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    ARA Interactive Intro CD
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Authorware / CD</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="20">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-newmedia_caseVR.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-newmedia_caseVR.jpg'"
+                  alt="Case IH VR Experience" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Case IH VR Experience
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">3D &amp; Virtual Reality</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="21">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-newmedia_caseintro2002.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-newmedia_caseintro2002.jpg'"
+                  alt="Case IH Interactive Intro 2002" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Case IH Interactive Intro 2002
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Interactive Media</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="22">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-newmedia_caseintro2003.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-newmedia_caseintro2003.jpg'"
+                  alt="Case IH Interactive Intro 2003" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Case IH Interactive Intro 2003
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Interactive Media</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="23">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-newmedia_dremelDVD.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-newmedia_dremelDVD.jpg'"
+                  alt="Dremel Tool Interactive DVD" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Dremel Tool Interactive DVD
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">DVD Presentation</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="24">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-newmedia_eliason.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-newmedia_eliason.jpg'"
+                  alt="Eliason Media System" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Eliason Media System
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Rich Media</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="25">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-newmedia_manitowockiosk.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-newmedia_manitowockiosk.jpg'"
+                  alt="Manitowoc Crane Kiosk System" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Manitowoc Crane Kiosk System
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Touchscreen Kiosk</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="26">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-newmedia_mmcCD.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-newmedia_mmcCD.jpg'"
+                  alt="MMC Interactive CD-ROM I" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    MMC Interactive CD-ROM I
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Interactive CD</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="27">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc_newmedia_mmcCD2.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc_newmedia_mmcCD2.jpg'"
+                  alt="MMC Interactive CD-ROM II" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    MMC Interactive CD-ROM II
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Interactive CD</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="28">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-newmedia_nhceVR2005.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-newmedia_nhceVR2005.jpg'"
+                  alt="New Holland VR 2005 Exhibition" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    New Holland VR 2005 Exhibition
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Interactive VR</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="29">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-newmedia_polarisPres.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-newmedia_polarisPres.jpg'"
+                  alt="Polaris Interactive Presentation" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Polaris Interactive Presentation
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Corporate CD</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="30">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-newmedia_putzCD.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-newmedia_putzCD.jpg'"
+                  alt="Putzmeister Interactive CD" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Putzmeister Interactive CD
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Product Media</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="31">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-newmedia_tomoCD.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-newmedia_tomoCD.jpg'"
+                  alt="TomoTherapy Interactive CD" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    TomoTherapy Interactive CD
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Medical Media</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="32">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-newmedia_volvointro.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-newmedia_volvointro.jpg'"
+                  alt="Volvo Interactive Introduction" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Volvo Interactive Introduction
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Automotive CD</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="33">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-web_agentspam.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-web_agentspam.jpg'"
+                  alt="Agent Spam Security Gateway" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Agent Spam Security Gateway
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Security Platform</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="34">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-web_allsaintsintranet.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-web_allsaintsintranet.jpg'"
+                  alt="All Saints Healthcare Intranet" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    All Saints Healthcare Intranet
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Healthcare Intranet</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="35">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc_web_allsaintsinternet.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc_web_allsaintsinternet.jpg'"
+                  alt="All Saints Public Portal" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    All Saints Public Portal
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Hospital Web</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="36">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-web_biztimes.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-web_biztimes.jpg'"
+                  alt="BizTimes Milwaukee Publishing" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    BizTimes Milwaukee Publishing
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">News Media Web</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="37">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-web_case2005.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-web_case2005.jpg'"
+                  alt="Case IH 2005 Web Portal" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Case IH 2005 Web Portal
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Brand Portal</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="38">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-web_christmascorner.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-web_christmascorner.jpg'"
+                  alt="Christmas Corner Retail" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Christmas Corner Retail
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Commerce</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="39">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-web_constructioninc.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-web_constructioninc.jpg'"
+                  alt="Construction Inc Showcase" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Construction Inc Showcase
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Commercial Web</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="40">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-web_cyberlynk.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-web_cyberlynk.jpg'"
+                  alt="CyberLynk Network Portal" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    CyberLynk Network Portal
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">ISP Platform</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="41">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-web_echo.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-web_echo.jpg'"
+                  alt="Echo Power Equipment" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Echo Power Equipment
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Manufacturer</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="42">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-web_eliasoninc.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-web_eliasoninc.jpg'"
+                  alt="Eliason Doors Corporate" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Eliason Doors Corporate
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Corporate Web</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="43">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-web_flowersltd.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-web_flowersltd.jpg'"
+                  alt="Flowers Ltd Floral Network" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Flowers Ltd Floral Network
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Floral Retail</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="44">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-web_girlscouts.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-web_girlscouts.jpg'"
+                  alt="Girl Scouts Regional Council" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Girl Scouts Regional Council
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Community Portal</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="45">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-web_kobelco.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-web_kobelco.jpg'"
+                  alt="Kobelco Construction Machinery" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Kobelco Construction Machinery
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Equipment Portal</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="46">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-web_merchants.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-web_merchants.jpg'"
+                  alt="Merchants Moving &amp; Storage" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Merchants Moving &amp; Storage
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Logistics Web</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="47">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-web_mmcinternet.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-web_mmcinternet.jpg'"
+                  alt="MMC Global Public Website" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    MMC Global Public Website
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Agency Web</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="48">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-web_mmcportfolio.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-web_mmcportfolio.jpg'"
+                  alt="MMC Interactive Portfolio" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    MMC Interactive Portfolio
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Portfolio Showcase</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="49">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-web_mueller.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-web_mueller.jpg'"
+                  alt="Mueller Funeral Home Portal" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Mueller Funeral Home Portal
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Service Portal</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="50">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-web_nhc2006.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-web_nhc2006.jpg'"
+                  alt="New Holland Construction 2006" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    New Holland Construction 2006
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Heavy Equipment</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="51">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-web_nhce.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-web_nhce.jpg'"
+                  alt="New Holland Construction Europe" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    New Holland Construction Europe
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Global Portal</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="52">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-web_nhcpromo.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-web_nhcpromo.jpg'"
+                  alt="New Holland Promotional Portal" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    New Holland Promotional Portal
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Campaign Portal</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="53">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-web_nhenry.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-web_nhenry.jpg'"
+                  alt="Nelson Henry Corporate Site" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Nelson Henry Corporate Site
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Corporate Web</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="54">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-web_norris.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-web_norris.jpg'"
+                  alt="Norris Adolescent Center" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Norris Adolescent Center
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Education &amp; Care</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="55">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-web_wispark.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/mmc-web_wispark.jpg'"
+                  alt="Wispark Commercial Development" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Wispark Commercial Development
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Real Estate</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="56">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/personal-web_dreamwinds.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/personal-web_dreamwinds.jpg'"
+                  alt="Dreamwinds Creative Studio" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Dreamwinds Creative Studio
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Creative Portal</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="57">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/personal-web_dvdoutlet.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/personal-web_dvdoutlet.jpg'"
+                  alt="DVD Outlet Digital Store" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    DVD Outlet Digital Store
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Media E-Commerce</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="58">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/personal-web_irockz.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/personal-web_irockz.jpg'"
+                  alt="iRockz Music &amp; Culture" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    iRockz Music &amp; Culture
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Music Portal</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="59">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/personal-web_rjskateworks.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/personal-web_rjskateworks.jpg'"
+                  alt="RJ Skateworks Brand" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    RJ Skateworks Brand
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Lifestyle &amp; Action</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="60">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/personal-web_spellfire.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/personal-web_spellfire.jpg'"
+                  alt="Spellfire Guild Archives" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Spellfire Guild Archives
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Gaming Community</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="61">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/personal_web_balticservices.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/personal_web_balticservices.jpg'"
+                  alt="Baltic Services Platform" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Baltic Services Platform
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Web Engineering</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="62">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/personal_web_mpc.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/personal_web_mpc.jpg'"
+                  alt="MPC Creative Network" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    MPC Creative Network
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Multimedia Lab</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="63">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/personal_web_survivalpossible.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/personal_web_survivalpossible.jpg'"
+                  alt="Survival Possible Wilderness" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Survival Possible Wilderness
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Adventure Portal</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="64">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/referee-web_summit2006.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/referee-web_summit2006.jpg'"
+                  alt="Referee Magazine Summit 2006" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    Referee Magazine Summit 2006
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Event &amp; Magazine</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="65">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/rusd_web_enrollment.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/rusd_web_enrollment.jpg'"
+                  alt="RUSD Student Enrollment Portal" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    RUSD Student Enrollment Portal
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Public Education</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="66">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/rusd_web_instech_old.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/rusd_web_instech_old.jpg'"
+                  alt="RUSD Instructional Technology" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    RUSD Instructional Technology
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">EdTech Portal</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="67">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/rusd_web_internet.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/rusd_web_internet.jpg'"
+                  alt="RUSD Central District Internet" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    RUSD Central District Internet
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">District Portal</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+            <article
+              class="group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]"
+              data-index="68">
+              <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+                <img
+                  src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/rusd_web_teacher.jpg"
+                  onerror="this.onerror=null;this.src='http://www.robertcaretta.com/assets/portfolio/rusd_web_teacher.jpg'"
+                  alt="RUSD Educator Workspace" loading="lazy"
+                  class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                </div>
+
+                <!-- Quick View Expand Icon -->
+                <div
+                  class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                  <span class="material-symbols-outlined text-[16px]">visibility</span>
+                </div>
+              </div>
+
+              <div class="p-4 flex items-center justify-between gap-3">
+                <div class="flex flex-col gap-1 min-w-0">
+                  <h3
+                    class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                    RUSD Educator Workspace
+                  </h3>
+                  <span class="font-label-sm text-label-sm text-outline">Staff Intranet</span>
+                </div>
+                <span
+                  class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+              </div>
+            </article>
+          </section>
+          <!-- CTA Bottom Banner -->
+
+        </div>
+      </div>
+      <!-- Full-Screen Interactive Lightbox Modal -->
+      <div
+        class="fixed inset-0 z-50 items-center justify-center bg-background/90 backdrop-blur-2xl transition-opacity duration-300 p-4 lg:p-8 opacity-0 hidden"
+        id="lightbox-modal">
+        <div
+          class="relative w-full max-w-5xl bg-surface-container-low rounded-2xl overflow-hidden shadow-[0_24px_72px_rgba(0,0,0,0.8),inset_0_1px_0_0_rgba(255,255,255,0.12)] flex flex-col max-h-[92vh]">
+          <!-- Modal Top Bar -->
+          <div class="h-14 px-6 flex items-center justify-between bg-surface-container-lowest/80 backdrop-blur-md">
+            <div class="flex items-center gap-3">
+              <span class="w-2.5 h-2.5 rounded-full bg-primary"></span>
+              <span class="font-label-md text-label-md text-on-surface font-semibold" id="modal-project-title">Norris
+                Adolescent Center</span>
+              <span class="font-code-mono text-code-mono text-outline text-[11px]"
+                id="modal-index-counter">[55/69]</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <a class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors"
+                href="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-web_norris.jpg"
+                id="modal-external-link" rel="noopener noreferrer" target="_blank">
+                <span class="material-symbols-outlined text-[18px]">open_in_new</span>
+              </a>
+              <button
+                class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors cursor-pointer"
+                id="modal-close-btn">
+                <span class="material-symbols-outlined text-[18px]">close</span>
+              </button>
+            </div>
+          </div>
+          <!-- Modal Image Viewport -->
+          <div
+            class="relative flex-1 bg-surface-container-lowest flex items-center justify-center overflow-hidden min-h-[340px] max-h-[70vh] p-4 select-none">
+            <img alt="Project Preview Screenshot"
+              class="max-w-full max-h-full object-contain rounded-lg shadow-md transition-transform duration-200"
+              id="modal-image"
+              src="https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/mmc-web_norris.jpg">
+            <!-- Prev / Next Overlays -->
+            <button
+              class="absolute left-4 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-surface-container-lowest/80 hover:bg-surface-container-lowest text-on-surface flex items-center justify-center shadow-lg hover:text-primary transition-all cursor-pointer"
+              id="modal-prev-btn">
+              <span class="material-symbols-outlined text-[24px]">chevron_left</span>
+            </button>
+            <button
+              class="absolute right-4 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-surface-container-lowest/80 hover:bg-surface-container-lowest text-on-surface flex items-center justify-center shadow-lg hover:text-primary transition-all cursor-pointer"
+              id="modal-next-btn">
+              <span class="material-symbols-outlined text-[24px]">chevron_right</span>
+            </button>
+          </div>
+          <!-- Modal Bottom Information Bar -->
+          <div class="px-6 py-4 bg-surface-container-lowest flex flex-wrap items-center justify-between gap-4">
+            <div class="flex items-center gap-3">
+              <span
+                class="px-3 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-primary font-medium"
+                id="modal-category-tag">Education &amp; Care</span>
+              <span class="font-code-mono text-code-mono text-outline truncate max-w-xs md:max-w-md"
+                id="modal-file-name">mmc-web_norris.jpg</span>
+            </div>
+            <div class="flex items-center gap-4 text-outline font-label-sm text-label-sm">
+              <span class="">← Prev</span>
+              <span class="">→ Next</span>
+              <span class="">ESC to Close</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const RAW_GITHUB_BASE = 'https://raw.githubusercontent.com/robertcaretta/robertcaretta.github.io/main/assets/portfolio/';
+          const FALLBACK_BASE = 'http://www.robertcaretta.com/assets/portfolio/';
+
+          const portfolioData = [
+            { file: 'hq-web_alphadotnet.jpg', title: 'AlphaDotNet Web System', tag: 'Web Portal' },
+            { file: 'hq-web_beeline.jpg', title: 'Beeline Delivery Network', tag: 'Web Platform' },
+            { file: 'hq-web_cathmed.jpg', title: 'Catholic Medical Center', tag: 'Healthcare Web' },
+            { file: 'hq-web_dairyland.jpg', title: 'Dairyland Insurance Services', tag: 'Commercial Portal' },
+            { file: 'hq-web_e2systems.jpg', title: 'E2 Systems Architecture', tag: 'Tech Solutions' },
+            { file: 'hq-web_eriemedical.jpg', title: 'Erie Medical Portal', tag: 'Healthcare Web' },
+            { file: 'hq-web_evansassoc.jpg', title: 'Evans & Associates Corporate', tag: 'Consulting Web' },
+            { file: 'hq-web_midwestheart.jpg', title: 'Midwest Heart Specialists', tag: 'Clinical Web' },
+            { file: 'hq-web_milwaukeehydraulics.jpg', title: 'Milwaukee Hydraulics', tag: 'Industrial Web' },
+            { file: 'hq-web_ocenco.jpg', title: 'Ocenco Safety Systems', tag: 'Manufacturing' },
+            { file: 'hq-web_oconomowoc.jpg', title: 'Oconomowoc Community Web', tag: 'Municipal Web' },
+            { file: 'hq-web_plumbgold.jpg', title: 'Plumb Gold Jewelers', tag: 'Luxury E-Commerce' },
+            { file: 'hq-web_prloghomes.jpg', title: 'PR Log Homes Architecture', tag: 'Construction Web' },
+            { file: 'hq-web_rso.jpg', title: 'Racine Symphony Orchestra', tag: 'Arts & Culture' },
+            { file: 'hq-web_shavers.jpg', title: 'Shavers Online Store', tag: 'Commerce' },
+            { file: 'hq-web_thejamesons.jpg', title: 'The Jamesons Media', tag: 'Digital Media' },
+            { file: 'hq-web_umisco.jpg', title: 'Umisco Manufacturing Portal', tag: 'Industrial Web' },
+            { file: 'hq-web_volleyball.jpg', title: 'Wisconsin Volleyball League', tag: 'Sports Media' },
+            { file: 'hq_web_headquarters2.jpg', title: 'Headquarters Enterprise II', tag: 'Enterprise Web' },
+            { file: 'mmc-newmedia_araIntro.jpg', title: 'ARA Interactive Intro CD', tag: 'Authorware / CD' },
+            { file: 'mmc-newmedia_caseVR.jpg', title: 'Case IH VR Experience', tag: '3D & Virtual Reality' },
+            { file: 'mmc-newmedia_caseintro2002.jpg', title: 'Case IH Interactive Intro 2002', tag: 'Interactive Media' },
+            { file: 'mmc-newmedia_caseintro2003.jpg', title: 'Case IH Interactive Intro 2003', tag: 'Interactive Media' },
+            { file: 'mmc-newmedia_dremelDVD.jpg', title: 'Dremel Tool Interactive DVD', tag: 'DVD Presentation' },
+            { file: 'mmc-newmedia_eliason.jpg', title: 'Eliason Media System', tag: 'Rich Media' },
+            { file: 'mmc-newmedia_manitowockiosk.jpg', title: 'Manitowoc Crane Kiosk System', tag: 'Touchscreen Kiosk' },
+            { file: 'mmc-newmedia_mmcCD.jpg', title: 'MMC Interactive CD-ROM I', tag: 'Interactive CD' },
+            { file: 'mmc_newmedia_mmcCD2.jpg', title: 'MMC Interactive CD-ROM II', tag: 'Interactive CD' },
+            { file: 'mmc-newmedia_nhceVR2005.jpg', title: 'New Holland VR 2005 Exhibition', tag: 'Interactive VR' },
+            { file: 'mmc-newmedia_polarisPres.jpg', title: 'Polaris Interactive Presentation', tag: 'Corporate CD' },
+            { file: 'mmc-newmedia_putzCD.jpg', title: 'Putzmeister Interactive CD', tag: 'Product Media' },
+            { file: 'mmc-newmedia_tomoCD.jpg', title: 'TomoTherapy Interactive CD', tag: 'Medical Media' },
+            { file: 'mmc-newmedia_volvointro.jpg', title: 'Volvo Interactive Introduction', tag: 'Automotive CD' },
+            { file: 'mmc-web_agentspam.jpg', title: 'Agent Spam Security Gateway', tag: 'Security Platform' },
+            { file: 'mmc-web_allsaintsintranet.jpg', title: 'All Saints Healthcare Intranet', tag: 'Healthcare Intranet' },
+            { file: 'mmc_web_allsaintsinternet.jpg', title: 'All Saints Public Portal', tag: 'Hospital Web' },
+            { file: 'mmc-web_biztimes.jpg', title: 'BizTimes Milwaukee Publishing', tag: 'News Media Web' },
+            { file: 'mmc-web_case2005.jpg', title: 'Case IH 2005 Web Portal', tag: 'Brand Portal' },
+            { file: 'mmc-web_christmascorner.jpg', title: 'Christmas Corner Retail', tag: 'Commerce' },
+            { file: 'mmc-web_constructioninc.jpg', title: 'Construction Inc Showcase', tag: 'Commercial Web' },
+            { file: 'mmc-web_cyberlynk.jpg', title: 'CyberLynk Network Portal', tag: 'ISP Platform' },
+            { file: 'mmc-web_echo.jpg', title: 'Echo Power Equipment', tag: 'Manufacturer' },
+            { file: 'mmc-web_eliasoninc.jpg', title: 'Eliason Doors Corporate', tag: 'Corporate Web' },
+            { file: 'mmc-web_flowersltd.jpg', title: 'Flowers Ltd Floral Network', tag: 'Floral Retail' },
+            { file: 'mmc-web_girlscouts.jpg', title: 'Girl Scouts Regional Council', tag: 'Community Portal' },
+            { file: 'mmc-web_kobelco.jpg', title: 'Kobelco Construction Machinery', tag: 'Equipment Portal' },
+            { file: 'mmc-web_merchants.jpg', title: 'Merchants Moving & Storage', tag: 'Logistics Web' },
+            { file: 'mmc-web_mmcinternet.jpg', title: 'MMC Global Public Website', tag: 'Agency Web' },
+            { file: 'mmc-web_mmcportfolio.jpg', title: 'MMC Interactive Portfolio', tag: 'Portfolio Showcase' },
+            { file: 'mmc-web_mueller.jpg', title: 'Mueller Funeral Home Portal', tag: 'Service Portal' },
+            { file: 'mmc-web_nhc2006.jpg', title: 'New Holland Construction 2006', tag: 'Heavy Equipment' },
+            { file: 'mmc-web_nhce.jpg', title: 'New Holland Construction Europe', tag: 'Global Portal' },
+            { file: 'mmc-web_nhcpromo.jpg', title: 'New Holland Promotional Portal', tag: 'Campaign Portal' },
+            { file: 'mmc-web_nhenry.jpg', title: 'Nelson Henry Corporate Site', tag: 'Corporate Web' },
+            { file: 'mmc-web_norris.jpg', title: 'Norris Adolescent Center', tag: 'Education & Care' },
+            { file: 'mmc-web_wispark.jpg', title: 'Wispark Commercial Development', tag: 'Real Estate' },
+            { file: 'personal-web_dreamwinds.jpg', title: 'Dreamwinds Creative Studio', tag: 'Creative Portal' },
+            { file: 'personal-web_dvdoutlet.jpg', title: 'DVD Outlet Digital Store', tag: 'Media E-Commerce' },
+            { file: 'personal-web_irockz.jpg', title: 'iRockz Music & Culture', tag: 'Music Portal' },
+            { file: 'personal-web_rjskateworks.jpg', title: 'RJ Skateworks Brand', tag: 'Lifestyle & Action' },
+            { file: 'personal-web_spellfire.jpg', title: 'Spellfire Guild Archives', tag: 'Gaming Community' },
+            { file: 'personal_web_balticservices.jpg', title: 'Baltic Services Platform', tag: 'Web Engineering' },
+            { file: 'personal_web_mpc.jpg', title: 'MPC Creative Network', tag: 'Multimedia Lab' },
+            { file: 'personal_web_survivalpossible.jpg', title: 'Survival Possible Wilderness', tag: 'Adventure Portal' },
+            { file: 'referee-web_summit2006.jpg', title: 'Referee Magazine Summit 2006', tag: 'Event & Magazine' },
+            { file: 'rusd_web_enrollment.jpg', title: 'RUSD Student Enrollment Portal', tag: 'Public Education' },
+            { file: 'rusd_web_instech_old.jpg', title: 'RUSD Instructional Technology', tag: 'EdTech Portal' },
+            { file: 'rusd_web_internet.jpg', title: 'RUSD Central District Internet', tag: 'District Portal' },
+            { file: 'rusd_web_teacher.jpg', title: 'RUSD Educator Workspace', tag: 'Staff Intranet' }
+          ];
+
+          const gridEl = document.getElementById('portfolio-grid');
+          const totalCounterEl = document.getElementById('total-visible-count');
+
+          // Modal elements
+          const modal = document.getElementById('lightbox-modal');
+          const modalImage = document.getElementById('modal-image');
+          const modalTitle = document.getElementById('modal-project-title');
+          const modalCategoryTag = document.getElementById('modal-category-tag');
+          const modalFileName = document.getElementById('modal-file-name');
+          const modalCounter = document.getElementById('modal-index-counter');
+          const modalExternalLink = document.getElementById('modal-external-link');
+          const modalCloseBtn = document.getElementById('modal-close-btn');
+          const modalPrevBtn = document.getElementById('modal-prev-btn');
+          const modalNextBtn = document.getElementById('modal-next-btn');
+
+          let activeIndex = 0;
+
+          totalCounterEl.textContent = portfolioData.length;
+
+          // Render cards
+          function renderGrid(items) {
+            gridEl.innerHTML = '';
+
+            items.forEach((item, index) => {
+              const rawUrl = RAW_GITHUB_BASE + item.file;
+              const fallbackUrl = FALLBACK_BASE + item.file;
+
+              const card = document.createElement('article');
+              card.className = 'group relative flex flex-col bg-surface-container-low/90 rounded-xl overflow-hidden hover:bg-surface-container transition-all duration-300 hover:-translate-y-1 cursor-pointer shadow-[0_8px_32px_rgba(0,0,0,0.36),inset_0_1px_0_0_rgba(255,255,255,0.08)] hover:shadow-[0_16px_40px_rgba(0,113,227,0.2),inset_0_1px_0_0_rgba(255,255,255,0.18)]';
+              card.setAttribute('data-index', index);
+
+              card.innerHTML = `
+            <div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+              <img 
+                src="${rawUrl}" 
+                onerror="this.onerror=null;this.src='${fallbackUrl}'"
+                alt="${item.title}" 
+                loading="lazy"
+                class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity"></div>
+
+              <!-- Quick View Expand Icon -->
+              <div class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface flex items-center justify-center opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]">
+                <span class="material-symbols-outlined text-[16px]">visibility</span>
+              </div>
+            </div>
+
+            <div class="p-4 flex items-center justify-between gap-3">
+              <div class="flex flex-col gap-1 min-w-0">
+                <h3 class="font-headline-md text-headline-md font-semibold text-on-surface tracking-tight group-hover:text-primary transition-colors line-clamp-1">
+                  ${item.title}
+                </h3>
+                <span class="font-label-sm text-label-sm text-outline">${item.tag}</span>
+              </div>
+              <span class="material-symbols-outlined text-[18px] text-outline group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0">arrow_forward</span>
+            </div>
+          `;
+
+              card.addEventListener('click', () => {
+                openModal(index);
+              });
+
+              gridEl.appendChild(card);
+            });
+          }
+
+          // Modal Functions
+          function openModal(index) {
+            if (!portfolioData[index]) return;
+            activeIndex = index;
+            updateModalContent();
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            setTimeout(() => {
+              modal.classList.remove('opacity-0');
+            }, 10);
+            document.body.style.overflow = 'hidden';
+          }
+
+          function closeModal() {
+            modal.classList.add('opacity-0');
+            setTimeout(() => {
+              modal.classList.add('hidden');
+              modal.classList.remove('flex');
+              document.body.style.overflow = '';
+            }, 300);
+          }
+
+          function updateModalContent() {
+            const item = portfolioData[activeIndex];
+            if (!item) return;
+
+            const rawUrl = RAW_GITHUB_BASE + item.file;
+            const fallbackUrl = FALLBACK_BASE + item.file;
+
+            modalImage.src = rawUrl;
+            modalImage.onerror = function () {
+              this.onerror = null;
+              this.src = fallbackUrl;
+            };
+            modalTitle.textContent = item.title;
+            modalCategoryTag.textContent = item.tag;
+            modalFileName.textContent = item.file;
+            modalCounter.textContent = '[' + (activeIndex + 1) + '/' + portfolioData.length + ']';
+            modalExternalLink.href = rawUrl;
+          }
+
+          function nextModal() {
+            if (activeIndex < portfolioData.length - 1) {
+              activeIndex++;
+            } else {
+              activeIndex = 0;
+            }
+            updateModalContent();
+          }
+
+          function prevModal() {
+            if (activeIndex > 0) {
+              activeIndex--;
+            } else {
+              activeIndex = portfolioData.length - 1;
+            }
+            updateModalContent();
+          }
+
+          // Lightbox listeners
+          modalCloseBtn.addEventListener('click', closeModal);
+          modalNextBtn.addEventListener('click', (e) => { e.stopPropagation(); nextModal(); });
+          modalPrevBtn.addEventListener('click', (e) => { e.stopPropagation(); prevModal(); });
+
+          modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+              closeModal();
+            }
+          });
+
+          window.addEventListener('keydown', (e) => {
+            if (modal.classList.contains('hidden')) return;
+            if (e.key === 'Escape') closeModal();
+            if (e.key === 'ArrowRight') nextModal();
+            if (e.key === 'ArrowLeft') prevModal();
+          });
+
+          // Initial Render
+          renderGrid(portfolioData);
+        })();
+      </script>
+    </div>
+  </main>
+
+  <footer class="w-full bg-surface-container-lowest py-space-xl border-t border-white/5">
+    <div class="max-w-6xl mx-auto px-margin-mobile lg:px-margin">
+      <div
+        class="pt-space-md flex flex-col sm:flex-row items-center gap-space-sm font-label-sm text-label-sm text-outline border-t border-white/5 justify-center">
+        <p class="text-center">© 2026 Robert Caretta. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
